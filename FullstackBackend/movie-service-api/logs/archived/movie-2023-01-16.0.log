@@ -1,0 +1,112 @@
+2023-01-16 07:35:22,645 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 07:40:22,658 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 07:45:22,668 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 07:50:22,681 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 07:53:47,225 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-16 07:53:47,227 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-16 07:53:47,278 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 48 ms
+2023-01-16 07:53:47,923 INFO com.movie.controllers.MovieController [http-nio-8081-exec-1] In Controller, Updating
+2023-01-16 07:53:47,925 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-1] Connecting to the databaseMovieDB
+2023-01-16 07:53:48,726 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-1] MovieDBconnected
+2023-01-16 07:53:48,729 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-1] executing query
+2023-01-16 07:54:37,882 INFO com.movie.controllers.MovieController [http-nio-8081-exec-2] In Controller, Updating
+2023-01-16 07:54:37,883 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-2] Connecting to the databaseMovieDB
+2023-01-16 07:54:37,887 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-2] MovieDBconnected
+2023-01-16 07:54:37,887 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-2] executing query
+2023-01-16 07:55:22,687 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 07:59:58,529 INFO com.movie.controllers.MovieController [http-nio-8081-exec-4] In Controller, Updating
+2023-01-16 07:59:58,530 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-4] Connecting to the databaseMovieDB
+2023-01-16 07:59:58,534 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-4] MovieDBconnected
+2023-01-16 07:59:58,535 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-4] executing query
+2023-01-16 08:00:22,693 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:01:32,476 INFO com.movie.controllers.MovieController [http-nio-8081-exec-6] In Controller, Updating
+2023-01-16 08:01:32,477 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-6] Connecting to the databaseMovieDB
+2023-01-16 08:01:32,483 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-6] MovieDBconnected
+2023-01-16 08:01:32,483 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-6] executing query
+2023-01-16 08:02:18,871 INFO com.movie.controllers.MovieController [http-nio-8081-exec-7] In Controller, Updating
+2023-01-16 08:02:18,872 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-7] Connecting to the databaseMovieDB
+2023-01-16 08:02:18,877 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-7] MovieDBconnected
+2023-01-16 08:02:18,878 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-7] executing query
+2023-01-16 08:03:37,907 INFO com.movie.controllers.MovieController [http-nio-8081-exec-9] In Controller, Updating
+2023-01-16 08:03:37,908 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-9] Connecting to the databaseMovieDB
+2023-01-16 08:03:37,914 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-9] MovieDBconnected
+2023-01-16 08:03:37,914 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-9] executing query
+2023-01-16 08:05:22,704 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:05:33,118 INFO com.movie.controllers.MovieController [http-nio-8081-exec-1] In Controller, Updating
+2023-01-16 08:05:33,119 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-1] Connecting to the databaseMovieDB
+2023-01-16 08:05:33,122 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-1] MovieDBconnected
+2023-01-16 08:05:33,123 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-1] executing query
+2023-01-16 08:10:22,711 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:15:22,721 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:17:11,702 INFO com.movie.controllers.MovieController [http-nio-8081-exec-3] In Controller, Adding
+2023-01-16 08:17:11,703 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-3] Connecting to the databaseMovieDB
+2023-01-16 08:17:11,706 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-3] MovieDBconnected
+2023-01-16 08:17:11,707 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-3] executing query
+2023-01-16 08:20:22,731 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:25:22,734 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:30:22,738 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:32:03,847 INFO com.movie.controllers.MovieController [http-nio-8081-exec-5] In Controller, Adding
+2023-01-16 08:32:03,847 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-5] Connecting to the databaseMovieDB
+2023-01-16 08:32:03,857 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-5] MovieDBconnected
+2023-01-16 08:32:03,858 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-5] executing query
+2023-01-16 08:35:22,746 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:40:22,750 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:45:22,755 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:50:22,770 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:55:22,785 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:00:22,798 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:05:22,805 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:10:22,818 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:11:02,931 INFO com.movie.controllers.MovieController [http-nio-8081-exec-7] In Controller, Updating
+2023-01-16 09:11:02,933 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-7] Connecting to the databaseMovieDB
+2023-01-16 09:11:02,938 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-7] MovieDBconnected
+2023-01-16 09:11:02,939 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-7] executing query
+2023-01-16 09:15:22,825 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:17:52,900 INFO com.movie.controllers.MovieController [http-nio-8081-exec-9] In Controller, Adding
+2023-01-16 09:17:52,900 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-9] Connecting to the databaseMovieDB
+2023-01-16 09:17:52,904 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-9] MovieDBconnected
+2023-01-16 09:17:52,906 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-9] executing query
+2023-01-16 09:20:22,841 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:23:50,943 INFO com.movie.controllers.MovieController [http-nio-8081-exec-1] In Controller, Adding
+2023-01-16 09:23:50,943 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-1] Connecting to the databaseMovieDB
+2023-01-16 09:23:50,950 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-1] MovieDBconnected
+2023-01-16 09:23:50,951 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-1] executing query
+2023-01-16 09:25:22,858 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:29:59,963 INFO com.movie.controllers.MovieController [http-nio-8081-exec-3] In Controller, Adding
+2023-01-16 09:29:59,965 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-3] Connecting to the databaseMovieDB
+2023-01-16 09:29:59,973 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-3] MovieDBconnected
+2023-01-16 09:29:59,974 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-3] executing query
+2023-01-16 09:30:22,874 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:35:22,889 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:36:51,391 INFO com.movie.controllers.MovieController [http-nio-8081-exec-5] In Controller, Adding
+2023-01-16 09:36:51,392 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-5] Connecting to the databaseMovieDB
+2023-01-16 09:36:51,400 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-5] MovieDBconnected
+2023-01-16 09:36:51,402 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-5] executing query
+2023-01-16 09:40:22,896 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:45:09,740 INFO com.movie.controllers.MovieController [http-nio-8081-exec-7] In Controller, Adding
+2023-01-16 09:45:09,741 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-7] Connecting to the databaseMovieDB
+2023-01-16 09:45:09,748 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-7] MovieDBconnected
+2023-01-16 09:45:09,749 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-7] executing query
+2023-01-16 09:45:22,912 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:50:22,924 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:55:22,929 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:00:22,940 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:05:22,951 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:10:22,965 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:15:22,973 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:20:22,976 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:25:22,979 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:30:22,995 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:35:22,998 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:40:23,008 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:45:23,021 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:50:23,029 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:55:23,044 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:00:23,053 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:05:23,062 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:10:23,063 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:15:23,068 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:20:23,082 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:25:23,085 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:30:23,090 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:35:23,100 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration

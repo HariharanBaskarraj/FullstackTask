@@ -1,0 +1,10 @@
+<div [ngClass]="'card'">{{left}}&nbsp;&nbsp;&nbsp;<mat-slide-toggle (change)="onChange()">{{right}}</mat-slide-toggle>
+    <button [ngClass]="'add'" mat-raised-button color="primary" [ngClass]="'add'" *ngIf="roles.includes('admin')" (click)="add()">Add
+        Movie</button>
+    </div>
+<div *ngIf="!card">
+    <app-movie-list></app-movie-list>
+</div>
+<div *ngIf="card">
+    <app-movie-card></app-movie-card>
+</div>

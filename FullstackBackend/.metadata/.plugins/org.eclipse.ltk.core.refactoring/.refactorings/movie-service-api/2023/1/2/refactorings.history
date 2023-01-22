@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;movie-service-api/target/movie-service-api-0.0.1-SNAPSHOT.jar&apos; to &apos;movie-service.jar&apos;" description="Rename resource &apos;movie-service-api-0.0.1-SNAPSHOT.jar&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="target/movie-service-api-0.0.1-SNAPSHOT.jar" name="movie-service.jar" stamp="1673260435766" updateReferences="true"/>
+</session>

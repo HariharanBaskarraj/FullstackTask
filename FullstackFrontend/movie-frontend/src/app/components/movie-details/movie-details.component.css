@@ -1,0 +1,122 @@
+fieldset {
+        padding: 1% 2% 1%;
+        margin: 5% 30% 5% 30%;
+}
+
+.right {
+        position: relative;
+        left: 85%;
+        margin-bottom: 50px;
+}
+
+.movieName {
+        margin-right: 30px;
+}
+
+
+.movieId {
+        margin-right: 50px;
+}
+
+.synopsis {
+        margin-right: 50px;
+}
+
+textarea {
+        font-family: Roboto, "Helvetica Neue", sans-serif;
+        font-size: medium;
+        background-color: black;
+        color: aliceblue;
+        width: 365px;
+        height: 65px;
+}
+
+.runtime {
+        margin-right: 52px;
+}
+
+.genre {
+        margin-right: 71px;
+}
+
+.leadActor {
+        margin-right: 37px;
+}
+
+.leadActress {
+        margin-right: 22px;
+}
+
+.director {
+        margin-right: 60px;
+}
+
+.writer {
+        margin-right: 73px;
+}
+
+.productionHouse {
+        margin-right: 40px;
+}
+
+.composer {
+        margin-right: 40px;
+}
+
+.distributor {
+        margin-right: 40px;
+}
+
+.editor {
+        margin-right: 73px;
+}
+
+.budget {
+        margin-right: 66px;
+}
+
+.collection {
+        margin-right: 45px;
+}
+
+.criticRatings {
+        margin-right: 22px;
+}
+
+.cbfcCertificate {
+        margin-right: 5px;
+}
+
+.awardCount {
+        margin-right: 30px;
+}
+
+.basis {
+        margin-right: 80px;
+}
+
+.audienceRatings {
+        margin-right: 5px;
+}
+
+@media screen and (min-width:0px)and (max-width:768px) {
+        fieldset {
+                padding: 10px 25px;
+                margin: 10px;
+        }
+
+        textarea {
+                width: 150px;
+                height: 75px;
+        }
+
+}
+
+
+@media screen and (min-width:769px)and (max-width:1024px) {
+        fieldset {
+                padding: 10px 25px;
+                margin: 10px;
+        }
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;movie-config-server/target/movie-config-server-0.0.1-SNAPSHOT.jar&apos; to &apos;movie-config.jar&apos;" description="Rename resource &apos;movie-config-server-0.0.1-SNAPSHOT.jar&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="target/movie-config-server-0.0.1-SNAPSHOT.jar" name="movie-config.jar" stamp="1673260343917" updateReferences="true"/>
+</session>

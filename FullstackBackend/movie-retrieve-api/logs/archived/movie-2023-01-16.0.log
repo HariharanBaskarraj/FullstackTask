@@ -1,0 +1,847 @@
+2023-01-16 07:35:21,265 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 07:40:21,303 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 07:42:24,052 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Retrieving
+2023-01-16 07:42:24,052 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 07:42:24,060 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 07:42:24,061 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 07:42:24,066 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 07:42:46,336 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Retrieving
+2023-01-16 07:42:46,336 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-16 07:42:46,341 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-16 07:42:46,342 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-16 07:42:46,348 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] storing the resultset in a list
+2023-01-16 07:43:24,870 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Retrieving
+2023-01-16 07:43:24,871 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-16 07:43:24,878 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-16 07:43:24,879 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-16 07:43:24,887 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-16 07:45:21,315 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 07:49:32,375 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Paging
+2023-01-16 07:49:32,375 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Performing Paging
+2023-01-16 07:49:32,375 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 07:49:32,381 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 07:49:32,382 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 07:49:32,387 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-16 07:49:32,387 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 07:49:32,391 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 07:49:32,391 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 07:49:32,394 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-16 07:49:36,039 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Paging
+2023-01-16 07:49:36,039 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Performing Paging
+2023-01-16 07:49:36,039 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 07:49:36,043 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 07:49:36,043 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 07:49:36,047 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 07:49:36,048 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 07:49:36,051 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 07:49:36,051 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 07:49:36,056 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 07:49:39,418 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Paging
+2023-01-16 07:49:39,418 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Performing Paging
+2023-01-16 07:49:39,418 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-16 07:49:39,422 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-16 07:49:39,423 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-16 07:49:39,427 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-16 07:49:39,428 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-16 07:49:39,432 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-16 07:49:39,432 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-16 07:49:39,436 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-16 07:49:39,785 INFO com.movie.controllers.MovieController [http-nio-8082-exec-9] In Controller, Paging
+2023-01-16 07:49:39,786 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Performing Paging
+2023-01-16 07:49:39,786 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-16 07:49:39,789 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-16 07:49:39,789 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-16 07:49:39,793 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-16 07:49:39,793 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-16 07:49:39,797 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-16 07:49:39,797 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-16 07:49:39,800 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-16 07:49:40,049 INFO com.movie.controllers.MovieController [http-nio-8082-exec-10] In Controller, Paging
+2023-01-16 07:49:40,049 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Performing Paging
+2023-01-16 07:49:40,049 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-16 07:49:40,052 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-16 07:49:40,052 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-16 07:49:40,056 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-16 07:49:40,056 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-16 07:49:40,060 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-16 07:49:40,060 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-16 07:49:40,063 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-16 07:49:40,299 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Paging
+2023-01-16 07:49:40,301 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Performing Paging
+2023-01-16 07:49:40,302 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 07:49:40,306 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 07:49:40,306 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 07:49:40,310 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 07:49:40,310 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 07:49:40,313 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 07:49:40,313 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 07:49:40,316 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 07:49:40,526 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Paging
+2023-01-16 07:49:40,526 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Performing Paging
+2023-01-16 07:49:40,527 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 07:49:40,530 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 07:49:40,530 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 07:49:40,535 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 07:49:40,535 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 07:49:40,540 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 07:49:40,541 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 07:49:40,544 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 07:49:40,791 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Paging
+2023-01-16 07:49:40,791 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Performing Paging
+2023-01-16 07:49:40,791 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-16 07:49:40,796 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-16 07:49:40,796 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-16 07:49:40,800 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] storing the resultset in a list
+2023-01-16 07:49:40,801 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-16 07:49:40,804 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-16 07:49:40,804 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-16 07:49:40,808 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] storing the resultset in a list
+2023-01-16 07:49:40,973 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Paging
+2023-01-16 07:49:40,973 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Performing Paging
+2023-01-16 07:49:40,973 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-16 07:49:40,977 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-16 07:49:40,977 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-16 07:49:40,981 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-16 07:49:40,981 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-16 07:49:40,984 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-16 07:49:40,985 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-16 07:49:40,988 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-16 07:49:41,204 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Paging
+2023-01-16 07:49:41,204 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Performing Paging
+2023-01-16 07:49:41,204 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-16 07:49:41,207 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-16 07:49:41,207 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-16 07:49:41,210 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-16 07:49:41,210 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-16 07:49:41,213 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-16 07:49:41,213 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-16 07:49:41,216 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-16 07:49:41,435 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Paging
+2023-01-16 07:49:41,435 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Performing Paging
+2023-01-16 07:49:41,436 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 07:49:41,439 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 07:49:41,439 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 07:49:41,441 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-16 07:49:41,442 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 07:49:41,445 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 07:49:41,445 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 07:49:41,448 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-16 07:49:41,619 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Paging
+2023-01-16 07:49:41,620 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Performing Paging
+2023-01-16 07:49:41,620 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 07:49:41,623 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 07:49:41,623 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 07:49:41,627 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 07:49:41,627 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 07:49:41,631 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 07:49:41,631 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 07:49:41,633 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 07:49:43,084 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Paging
+2023-01-16 07:49:43,085 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Performing Paging
+2023-01-16 07:49:43,085 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-16 07:49:43,088 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-16 07:49:43,088 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-16 07:49:43,091 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-16 07:49:43,091 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-16 07:49:43,094 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-16 07:49:43,094 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-16 07:49:43,098 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-16 07:49:48,933 INFO com.movie.controllers.MovieController [http-nio-8082-exec-9] In Controller, Sorting
+2023-01-16 07:49:48,933 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-16 07:49:48,936 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-16 07:49:48,936 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-16 07:49:48,939 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Iterating through the records
+2023-01-16 07:49:48,940 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Returning the list of movie records
+2023-01-16 07:50:21,321 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 07:50:55,280 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Get by ID
+2023-01-16 07:50:55,281 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] getting movie by id
+2023-01-16 07:50:55,283 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 07:50:55,287 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 07:50:55,288 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 07:50:55,292 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 07:50:58,007 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Retrieving
+2023-01-16 07:50:58,008 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 07:50:58,013 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 07:50:58,014 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 07:50:58,019 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 07:51:12,179 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Sorting
+2023-01-16 07:51:12,179 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-16 07:51:12,182 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-16 07:51:12,183 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-16 07:51:12,186 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Iterating through the records
+2023-01-16 07:51:12,187 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Returning the list of movie records
+2023-01-16 07:52:20,901 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Get by ID
+2023-01-16 07:52:20,901 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] getting movie by id
+2023-01-16 07:52:20,902 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-16 07:52:20,906 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-16 07:52:20,906 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-16 07:52:20,909 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-16 07:52:24,349 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Retrieving
+2023-01-16 07:52:24,349 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 07:52:24,353 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 07:52:24,355 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 07:52:24,358 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-16 07:52:26,169 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Get by ID
+2023-01-16 07:52:26,170 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] getting movie by id
+2023-01-16 07:52:26,170 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 07:52:26,174 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 07:52:26,176 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 07:52:26,179 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 07:52:29,113 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Retrieving
+2023-01-16 07:52:29,114 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-16 07:52:29,118 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-16 07:52:29,118 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-16 07:52:29,121 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-16 07:52:30,005 INFO com.movie.controllers.MovieController [http-nio-8082-exec-9] In Controller, Get by ID
+2023-01-16 07:52:30,006 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] getting movie by id
+2023-01-16 07:52:30,006 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-16 07:52:30,009 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-16 07:52:30,010 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-16 07:52:30,013 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-16 07:53:11,768 INFO com.movie.controllers.MovieController [http-nio-8082-exec-10] In Controller, Get by ID
+2023-01-16 07:53:11,769 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] getting movie by id
+2023-01-16 07:53:11,770 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-16 07:53:11,776 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-16 07:53:11,776 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-16 07:53:11,779 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-16 07:53:28,977 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Retrieving
+2023-01-16 07:53:28,978 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 07:53:28,983 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 07:53:28,984 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 07:53:28,987 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 07:53:32,163 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Get by ID
+2023-01-16 07:53:32,164 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] getting movie by id
+2023-01-16 07:53:32,164 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 07:53:32,168 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 07:53:32,168 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 07:53:32,171 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 07:53:34,036 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Get by ID
+2023-01-16 07:53:34,037 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] getting movie by id
+2023-01-16 07:53:34,037 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-16 07:53:34,041 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-16 07:53:34,042 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-16 07:53:34,046 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] storing the resultset in a list
+2023-01-16 07:53:49,678 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Retrieving
+2023-01-16 07:53:49,679 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-16 07:53:49,683 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-16 07:53:49,683 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-16 07:53:49,686 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-16 07:54:25,983 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Retrieving
+2023-01-16 07:54:25,984 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-16 07:54:25,989 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-16 07:54:25,989 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-16 07:54:25,993 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-16 07:54:28,036 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Get by ID
+2023-01-16 07:54:28,037 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] getting movie by id
+2023-01-16 07:54:28,038 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 07:54:28,043 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 07:54:28,044 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 07:54:28,047 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-16 07:54:30,742 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Get by ID
+2023-01-16 07:54:30,742 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] getting movie by id
+2023-01-16 07:54:30,743 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 07:54:30,794 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 07:54:30,794 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 07:54:30,797 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 07:54:42,818 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Retrieving
+2023-01-16 07:54:42,818 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-16 07:54:42,821 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-16 07:54:42,822 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-16 07:54:42,824 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-16 07:55:19,385 INFO com.movie.controllers.MovieController [http-nio-8082-exec-9] In Controller, Retrieving
+2023-01-16 07:55:19,386 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-16 07:55:19,390 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-16 07:55:19,391 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-16 07:55:19,394 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-16 07:55:21,205 INFO com.movie.controllers.MovieController [http-nio-8082-exec-10] In Controller, Retrieving
+2023-01-16 07:55:21,206 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-16 07:55:21,211 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-16 07:55:21,212 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-16 07:55:21,219 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-16 07:55:21,335 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 07:56:08,346 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Retrieving
+2023-01-16 07:56:08,347 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 07:56:08,351 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 07:56:08,351 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 07:56:08,354 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 07:56:29,118 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Retrieving
+2023-01-16 07:56:29,119 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 07:56:29,123 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 07:56:29,124 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 07:56:29,128 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 07:57:34,344 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Retrieving
+2023-01-16 07:57:34,345 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-16 07:57:34,354 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-16 07:57:34,355 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-16 07:57:34,359 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-16 07:58:11,968 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Retrieving
+2023-01-16 07:58:11,969 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-16 07:58:11,973 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-16 07:58:11,973 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-16 07:58:11,976 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-16 07:58:23,225 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Retrieving
+2023-01-16 07:58:23,226 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 07:58:23,234 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 07:58:23,235 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 07:58:23,240 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-16 07:58:30,538 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Retrieving
+2023-01-16 07:58:30,538 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 07:58:30,543 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 07:58:30,544 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 07:58:30,546 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 07:58:37,203 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Retrieving
+2023-01-16 07:58:37,203 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-16 07:58:37,208 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-16 07:58:37,208 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-16 07:58:37,212 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-16 07:58:43,859 INFO com.movie.controllers.MovieController [http-nio-8082-exec-9] In Controller, Retrieving
+2023-01-16 07:58:43,860 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-16 07:58:43,865 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-16 07:58:43,865 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-16 07:58:43,869 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-16 07:58:46,735 INFO com.movie.controllers.MovieController [http-nio-8082-exec-10] In Controller, Retrieving
+2023-01-16 07:58:46,736 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-16 07:58:46,741 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-16 07:58:46,742 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-16 07:58:46,747 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-16 07:58:48,974 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Retrieving
+2023-01-16 07:58:48,975 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 07:58:48,981 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 07:58:48,982 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 07:58:48,985 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 07:59:05,724 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Retrieving
+2023-01-16 07:59:05,726 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 07:59:05,731 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 07:59:05,732 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 07:59:05,737 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 07:59:10,351 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Retrieving
+2023-01-16 07:59:10,352 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-16 07:59:10,356 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-16 07:59:10,357 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-16 07:59:10,361 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] storing the resultset in a list
+2023-01-16 07:59:14,415 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Retrieving
+2023-01-16 07:59:14,417 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-16 07:59:14,420 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-16 07:59:14,420 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-16 07:59:14,423 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-16 07:59:19,341 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Retrieving
+2023-01-16 07:59:19,341 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-16 07:59:19,346 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-16 07:59:19,347 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-16 07:59:19,350 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-16 07:59:26,251 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Retrieving
+2023-01-16 07:59:26,252 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 07:59:26,257 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 07:59:26,258 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 07:59:26,263 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-16 07:59:29,096 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Retrieving
+2023-01-16 07:59:29,097 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 07:59:29,102 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 07:59:29,103 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 07:59:29,107 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 07:59:36,584 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Retrieving
+2023-01-16 07:59:36,585 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-16 07:59:36,591 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-16 07:59:36,592 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-16 07:59:36,596 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-16 07:59:45,789 INFO com.movie.controllers.MovieController [http-nio-8082-exec-9] In Controller, Get by ID
+2023-01-16 07:59:45,790 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] getting movie by id
+2023-01-16 07:59:45,790 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-16 07:59:45,793 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-16 07:59:45,793 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-16 07:59:45,795 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-16 07:59:51,048 INFO com.movie.controllers.MovieController [http-nio-8082-exec-10] In Controller, Get by ID
+2023-01-16 07:59:51,049 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] getting movie by id
+2023-01-16 07:59:51,049 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-16 07:59:51,053 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-16 07:59:51,053 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-16 07:59:51,057 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-16 08:00:21,349 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:00:49,932 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Get by ID
+2023-01-16 08:00:49,933 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] getting movie by id
+2023-01-16 08:00:49,934 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 08:00:49,939 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 08:00:49,940 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 08:00:49,944 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 08:00:56,149 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Get by ID
+2023-01-16 08:00:56,151 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] getting movie by id
+2023-01-16 08:00:56,151 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 08:00:56,156 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 08:00:56,157 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 08:00:56,159 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 08:01:03,081 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Get by ID
+2023-01-16 08:01:03,081 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] getting movie by id
+2023-01-16 08:01:03,082 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-16 08:01:03,087 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-16 08:01:03,088 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-16 08:01:03,092 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] storing the resultset in a list
+2023-01-16 08:01:07,635 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Get by ID
+2023-01-16 08:01:07,636 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] getting movie by id
+2023-01-16 08:01:07,637 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-16 08:01:07,643 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-16 08:01:07,644 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-16 08:01:07,650 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-16 08:01:15,055 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Get by ID
+2023-01-16 08:01:15,056 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] getting movie by id
+2023-01-16 08:01:15,056 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-16 08:01:15,060 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-16 08:01:15,060 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-16 08:01:15,063 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-16 08:01:36,057 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Retrieving
+2023-01-16 08:01:36,058 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 08:01:36,062 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 08:01:36,062 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 08:01:36,065 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-16 08:01:55,839 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Retrieving
+2023-01-16 08:01:55,840 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 08:01:55,843 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 08:01:55,844 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 08:01:55,846 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 08:01:57,100 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Get by ID
+2023-01-16 08:01:57,101 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] getting movie by id
+2023-01-16 08:01:57,102 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-16 08:01:57,105 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-16 08:01:57,106 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-16 08:01:57,109 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-16 08:02:03,162 INFO com.movie.controllers.MovieController [http-nio-8082-exec-9] In Controller, Get by ID
+2023-01-16 08:02:03,162 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] getting movie by id
+2023-01-16 08:02:03,163 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-16 08:02:03,166 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-16 08:02:03,166 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-16 08:02:03,169 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-16 08:02:21,120 INFO com.movie.controllers.MovieController [http-nio-8082-exec-10] In Controller, Retrieving
+2023-01-16 08:02:21,121 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-16 08:02:21,124 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-16 08:02:21,125 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-16 08:02:21,127 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-16 08:02:34,056 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Retrieving
+2023-01-16 08:02:34,057 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 08:02:34,061 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 08:02:34,062 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 08:02:34,066 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 08:02:37,049 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Get by ID
+2023-01-16 08:02:37,050 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] getting movie by id
+2023-01-16 08:02:37,051 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 08:02:37,055 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 08:02:37,056 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 08:02:37,059 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 08:03:22,775 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Get by ID
+2023-01-16 08:03:22,775 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] getting movie by id
+2023-01-16 08:03:22,775 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-16 08:03:22,778 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-16 08:03:22,780 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-16 08:03:22,782 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] storing the resultset in a list
+2023-01-16 08:04:10,409 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Get by ID
+2023-01-16 08:04:10,410 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] getting movie by id
+2023-01-16 08:04:10,410 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-16 08:04:10,413 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-16 08:04:10,414 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-16 08:04:10,416 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-16 08:04:16,389 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Get by ID
+2023-01-16 08:04:16,390 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] getting movie by id
+2023-01-16 08:04:16,390 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-16 08:04:16,394 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-16 08:04:16,394 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-16 08:04:16,397 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-16 08:04:20,373 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Get by ID
+2023-01-16 08:04:20,374 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] getting movie by id
+2023-01-16 08:04:20,375 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 08:04:20,379 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 08:04:20,379 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 08:04:20,382 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-16 08:04:35,726 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Get by ID
+2023-01-16 08:04:35,726 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] getting movie by id
+2023-01-16 08:04:35,727 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 08:04:35,732 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 08:04:35,733 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 08:04:35,737 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 08:04:59,758 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Get by ID
+2023-01-16 08:04:59,759 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] getting movie by id
+2023-01-16 08:04:59,760 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-16 08:04:59,763 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-16 08:04:59,763 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-16 08:04:59,766 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-16 08:05:21,352 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:05:21,944 INFO com.movie.controllers.MovieController [http-nio-8082-exec-9] In Controller, Get by ID
+2023-01-16 08:05:21,944 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] getting movie by id
+2023-01-16 08:05:21,945 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-16 08:05:21,949 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-16 08:05:21,949 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-16 08:05:21,952 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-16 08:05:28,084 INFO com.movie.controllers.MovieController [http-nio-8082-exec-10] In Controller, Get by ID
+2023-01-16 08:05:28,086 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] getting movie by id
+2023-01-16 08:05:28,086 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-16 08:05:28,090 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-16 08:05:28,091 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-16 08:05:28,093 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-16 08:05:30,153 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Get by ID
+2023-01-16 08:05:30,154 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] getting movie by id
+2023-01-16 08:05:30,155 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 08:05:30,163 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 08:05:30,163 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 08:05:30,168 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 08:05:35,529 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Retrieving
+2023-01-16 08:05:35,530 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 08:05:35,534 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 08:05:35,534 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 08:05:35,537 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 08:06:04,968 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Retrieving
+2023-01-16 08:06:04,969 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-16 08:06:04,973 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-16 08:06:04,974 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-16 08:06:04,978 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] storing the resultset in a list
+2023-01-16 08:06:10,104 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Retrieving
+2023-01-16 08:06:10,106 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-16 08:06:10,112 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-16 08:06:10,113 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-16 08:06:10,118 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-16 08:06:13,656 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Retrieving
+2023-01-16 08:06:13,657 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-16 08:06:13,662 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-16 08:06:13,662 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-16 08:06:13,667 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-16 08:06:14,702 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Get by ID
+2023-01-16 08:06:14,703 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] getting movie by id
+2023-01-16 08:06:14,703 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 08:06:14,708 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 08:06:14,709 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 08:06:14,711 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-16 08:09:54,242 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Get by ID
+2023-01-16 08:09:54,243 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] getting movie by id
+2023-01-16 08:09:54,243 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-16 08:09:54,246 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-16 08:09:54,247 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-16 08:09:54,249 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-16 08:10:11,404 INFO com.movie.controllers.MovieController [http-nio-8082-exec-9] In Controller, Get by ID
+2023-01-16 08:10:11,405 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] getting movie by id
+2023-01-16 08:10:11,405 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-16 08:10:11,410 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-16 08:10:11,410 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-16 08:10:11,414 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-16 08:10:15,488 INFO com.movie.controllers.MovieController [http-nio-8082-exec-10] In Controller, Retrieving
+2023-01-16 08:10:15,489 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-16 08:10:15,493 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-16 08:10:15,493 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-16 08:10:15,496 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-16 08:10:17,478 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Get by ID
+2023-01-16 08:10:17,479 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] getting movie by id
+2023-01-16 08:10:17,479 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 08:10:17,483 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 08:10:17,483 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 08:10:17,486 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 08:10:21,363 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:11:12,469 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Get by ID
+2023-01-16 08:11:12,469 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] getting movie by id
+2023-01-16 08:11:12,469 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 08:11:12,473 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 08:11:12,473 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 08:11:12,475 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 08:11:31,753 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Get by ID
+2023-01-16 08:11:31,754 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] getting movie by id
+2023-01-16 08:11:31,754 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-16 08:11:31,759 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-16 08:11:31,759 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-16 08:11:31,762 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] storing the resultset in a list
+2023-01-16 08:11:45,142 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Retrieving
+2023-01-16 08:11:45,142 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-16 08:11:45,145 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-16 08:11:45,146 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-16 08:11:45,148 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-16 08:15:21,374 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:17:13,840 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Retrieving
+2023-01-16 08:17:13,841 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 08:17:13,844 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 08:17:13,845 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 08:17:13,851 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-16 08:17:17,409 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Paging
+2023-01-16 08:17:17,410 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Performing Paging
+2023-01-16 08:17:17,410 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 08:17:17,413 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 08:17:17,414 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 08:17:17,417 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 08:17:17,418 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 08:17:17,420 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 08:17:17,421 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 08:17:17,423 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 08:17:21,508 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Paging
+2023-01-16 08:17:21,508 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Performing Paging
+2023-01-16 08:17:21,509 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-16 08:17:21,512 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-16 08:17:21,512 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-16 08:17:21,515 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-16 08:17:21,515 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-16 08:17:21,519 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-16 08:17:21,521 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-16 08:17:21,524 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-16 08:17:25,767 INFO com.movie.controllers.MovieController [http-nio-8082-exec-9] In Controller, Paging
+2023-01-16 08:17:25,768 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Performing Paging
+2023-01-16 08:17:25,768 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-16 08:17:25,771 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-16 08:17:25,771 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-16 08:17:25,775 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-16 08:17:25,775 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-16 08:17:25,779 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-16 08:17:25,780 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-16 08:17:25,782 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-16 08:20:21,383 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:25:21,393 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:30:21,409 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:32:05,337 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Retrieving
+2023-01-16 08:32:05,338 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 08:32:05,344 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 08:32:05,345 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 08:32:05,348 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 08:32:08,373 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Paging
+2023-01-16 08:32:08,374 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Performing Paging
+2023-01-16 08:32:08,374 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 08:32:08,378 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 08:32:08,378 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 08:32:08,381 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 08:32:08,382 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 08:32:08,384 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 08:32:08,385 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 08:32:08,387 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 08:35:21,414 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:40:21,429 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:45:21,438 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:50:21,442 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 08:55:21,456 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:00:21,472 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:05:21,489 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:10:20,345 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Retrieving
+2023-01-16 09:10:20,346 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-16 09:10:20,350 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-16 09:10:20,351 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-16 09:10:20,355 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-16 09:10:21,497 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:10:55,559 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Get by ID
+2023-01-16 09:10:55,559 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] getting movie by id
+2023-01-16 09:10:55,560 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 09:10:55,563 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 09:10:55,563 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 09:10:55,565 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-16 09:10:57,609 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Get by ID
+2023-01-16 09:10:57,610 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] getting movie by id
+2023-01-16 09:10:57,610 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 09:10:57,613 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 09:10:57,613 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 09:10:57,616 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 09:11:04,402 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Retrieving
+2023-01-16 09:11:04,402 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-16 09:11:04,405 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-16 09:11:04,405 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-16 09:11:04,407 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-16 09:11:11,564 INFO com.movie.controllers.MovieController [http-nio-8082-exec-9] In Controller, Paging
+2023-01-16 09:11:11,564 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Performing Paging
+2023-01-16 09:11:11,564 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-16 09:11:11,567 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-16 09:11:11,568 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-16 09:11:11,569 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-16 09:11:11,570 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-16 09:11:11,572 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-16 09:11:11,573 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-16 09:11:11,575 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-16 09:15:21,505 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:17:54,492 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Retrieving
+2023-01-16 09:17:54,494 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 09:17:54,497 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 09:17:54,499 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 09:17:54,502 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 09:17:58,027 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Paging
+2023-01-16 09:17:58,028 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Performing Paging
+2023-01-16 09:17:58,028 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 09:17:58,031 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 09:17:58,032 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 09:17:58,035 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 09:17:58,037 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 09:17:58,039 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 09:17:58,039 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 09:17:58,041 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 09:20:21,521 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:23:52,513 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Retrieving
+2023-01-16 09:23:52,513 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-16 09:23:52,518 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-16 09:23:52,519 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-16 09:23:52,522 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-16 09:23:56,981 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Paging
+2023-01-16 09:23:56,981 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Performing Paging
+2023-01-16 09:23:56,982 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-16 09:23:56,984 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-16 09:23:56,985 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-16 09:23:56,987 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-16 09:23:56,988 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-16 09:23:56,991 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-16 09:23:56,992 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-16 09:23:56,996 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-16 09:25:21,526 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:30:01,173 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Retrieving
+2023-01-16 09:30:01,173 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 09:30:01,176 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 09:30:01,176 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 09:30:01,181 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 09:30:09,549 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Retrieving
+2023-01-16 09:30:09,549 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-16 09:30:09,552 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-16 09:30:09,553 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-16 09:30:09,556 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-16 09:30:21,536 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:35:21,544 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:36:52,840 INFO com.movie.controllers.MovieController [http-nio-8082-exec-10] In Controller, Retrieving
+2023-01-16 09:36:52,840 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-16 09:36:52,843 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-16 09:36:52,844 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-16 09:36:52,849 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-16 09:37:10,735 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Paging
+2023-01-16 09:37:10,736 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Performing Paging
+2023-01-16 09:37:10,736 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 09:37:10,739 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 09:37:10,740 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 09:37:10,742 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 09:37:10,743 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 09:37:10,745 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 09:37:10,746 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 09:37:10,749 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 09:37:12,473 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Paging
+2023-01-16 09:37:12,473 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Performing Paging
+2023-01-16 09:37:12,475 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 09:37:12,477 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 09:37:12,478 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 09:37:12,482 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 09:37:12,483 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 09:37:12,486 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 09:37:12,486 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 09:37:12,487 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 09:37:18,979 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Paging
+2023-01-16 09:37:18,980 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Performing Paging
+2023-01-16 09:37:18,981 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-16 09:37:18,984 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-16 09:37:18,984 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-16 09:37:18,987 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] storing the resultset in a list
+2023-01-16 09:37:18,988 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-16 09:37:18,990 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-16 09:37:18,991 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-16 09:37:18,994 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] storing the resultset in a list
+2023-01-16 09:37:20,865 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Paging
+2023-01-16 09:37:20,866 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Performing Paging
+2023-01-16 09:37:20,866 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-16 09:37:20,869 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-16 09:37:20,869 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-16 09:37:20,871 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-16 09:37:20,872 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-16 09:37:20,874 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-16 09:37:20,875 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-16 09:37:20,877 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-16 09:37:25,112 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Retrieving
+2023-01-16 09:37:25,113 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-16 09:37:25,117 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-16 09:37:25,117 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-16 09:37:25,123 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-16 09:37:38,303 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Paging
+2023-01-16 09:37:38,303 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Performing Paging
+2023-01-16 09:37:38,303 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 09:37:38,306 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 09:37:38,307 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 09:37:38,310 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-16 09:37:38,311 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 09:37:38,314 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 09:37:38,315 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 09:37:38,317 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-16 09:37:39,975 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Paging
+2023-01-16 09:37:39,975 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Performing Paging
+2023-01-16 09:37:39,976 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 09:37:39,979 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 09:37:39,979 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 09:37:39,982 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 09:37:39,982 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 09:37:39,985 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 09:37:39,985 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 09:37:39,987 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-16 09:40:21,549 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:45:11,292 INFO com.movie.controllers.MovieController [http-nio-8082-exec-9] In Controller, Retrieving
+2023-01-16 09:45:11,292 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-16 09:45:11,297 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-16 09:45:11,298 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-16 09:45:11,301 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-16 09:45:19,312 INFO com.movie.controllers.MovieController [http-nio-8082-exec-10] In Controller, Paging
+2023-01-16 09:45:19,312 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Performing Paging
+2023-01-16 09:45:19,312 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-16 09:45:19,315 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-16 09:45:19,315 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-16 09:45:19,318 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-16 09:45:19,319 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-16 09:45:19,322 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-16 09:45:19,323 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-16 09:45:19,325 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-16 09:45:21,534 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Paging
+2023-01-16 09:45:21,534 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Performing Paging
+2023-01-16 09:45:21,535 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 09:45:21,537 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 09:45:21,538 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 09:45:21,540 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 09:45:21,541 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-16 09:45:21,543 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-16 09:45:21,545 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-16 09:45:21,546 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-16 09:45:21,559 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:45:24,299 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Paging
+2023-01-16 09:45:24,300 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Performing Paging
+2023-01-16 09:45:24,300 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 09:45:24,302 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 09:45:24,302 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 09:45:24,305 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 09:45:24,306 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-16 09:45:24,309 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-16 09:45:24,309 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-16 09:45:24,311 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-16 09:46:03,830 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Sorting
+2023-01-16 09:46:03,830 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-16 09:46:03,832 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-16 09:46:03,832 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-16 09:46:03,835 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Iterating through the records
+2023-01-16 09:46:03,837 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Returning the list of movie records
+2023-01-16 09:46:04,244 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Sorting
+2023-01-16 09:46:04,244 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-16 09:46:04,246 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-16 09:46:04,246 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-16 09:46:04,250 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Iterating through the records
+2023-01-16 09:46:04,251 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Returning the list of movie records
+2023-01-16 09:46:04,490 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Sorting
+2023-01-16 09:46:04,491 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-16 09:46:04,492 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-16 09:46:04,493 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-16 09:46:04,495 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Iterating through the records
+2023-01-16 09:46:04,496 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Returning the list of movie records
+2023-01-16 09:46:04,693 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Sorting
+2023-01-16 09:46:04,693 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-16 09:46:04,695 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-16 09:46:04,695 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-16 09:46:04,699 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Iterating through the records
+2023-01-16 09:46:04,699 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Returning the list of movie records
+2023-01-16 09:46:04,885 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Sorting
+2023-01-16 09:46:04,885 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-16 09:46:04,888 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-16 09:46:04,888 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-16 09:46:04,891 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Iterating through the records
+2023-01-16 09:46:04,892 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Returning the list of movie records
+2023-01-16 09:50:21,574 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 09:55:21,579 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:00:21,591 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:05:21,593 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:10:21,609 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:15:21,610 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:20:21,618 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:25:21,624 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:30:21,638 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:35:21,642 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:40:21,652 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:45:21,655 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:50:21,665 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 10:55:21,674 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:00:21,688 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:05:21,702 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:10:21,711 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:15:21,713 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:20:21,718 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:25:21,724 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:30:21,730 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-16 11:35:21,735 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration

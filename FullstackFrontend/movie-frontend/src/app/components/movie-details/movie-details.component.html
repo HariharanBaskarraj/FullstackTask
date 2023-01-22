@@ -1,0 +1,36 @@
+<fieldset>
+    <legend>MOVIE DETAILS</legend>
+    <mat-list>
+        <mat-list-item><span [ngClass]="'movieName'">Movie Name:</span> {{ movieById.movieName}}</mat-list-item>
+        <mat-list-item><span [ngClass]="'synopsis'">Synopsis: </span><span><textarea
+                    disabled>{{ movieById.synopsis }}</textarea></span>
+        </mat-list-item>
+        <mat-list-item><span [ngClass]="'movieId'">Movie ID:</span> {{ movieById.movieId }}</mat-list-item>
+        <mat-list-item><span [ngClass]="'runtime'">Runtime: </span>{{ movieById.runtime }}</mat-list-item>
+        <mat-list-item><span [ngClass]="'genre'">Genre: </span>{{ movieById.genre }}</mat-list-item>
+        <mat-list-item><span [ngClass]="'leadActor'">Lead Actor:</span> {{ movieById.leadActor }}</mat-list-item>
+        <mat-list-item><span [ngClass]="'leadActress'">Lead Actress: </span>{{ movieById.leadActress }}</mat-list-item>
+        <mat-list-item><span [ngClass]="'director'">Director: </span>{{ movieById.director }}</mat-list-item>
+        <mat-list-item><span [ngClass]="'writer'">Writer:</span> {{ movieById.writer }} </mat-list-item>
+        <mat-list-item><span [ngClass]="'productionHouse'">Production: </span>{{ movieById.productionHouse
+            }}</mat-list-item>
+        <mat-list-item><span [ngClass]="'composer'">Composer: </span>{{ movieById.composer }}</mat-list-item>
+        <mat-list-item><span [ngClass]="'distributor'">Distributor:</span> {{ movieById.distributor }}</mat-list-item>
+        <mat-list-item><span [ngClass]="'editor'">Editor: </span>{{ movieById.editor }}</mat-list-item>
+        <mat-list-item><span [ngClass]="'budget'">Budget: </span>{{ movieById.budget }} crores</mat-list-item>
+        <mat-list-item><span [ngClass]="'collection'">Collection:</span> {{ movieById.collection }} crores</mat-list-item>
+        <mat-list-item><span [ngClass]="'criticRatings'">Critic Ratings: </span>{{ movieById.criticRatings
+            }}</mat-list-item>
+        <mat-list-item><span [ngClass]="'cbfcCertificate'">CBFC Certificate:</span> {{ movieById.cbfcCertificate
+            }}</mat-list-item>
+        <mat-list-item><span [ngClass]="'awardCount'">Award Count: </span>{{ movieById.awardCount }}</mat-list-item>
+        <mat-list-item><span [ngClass]="'basis'">Basis:</span> {{ movieById.basis }}</mat-list-item>
+        <mat-list-item><span [ngClass]="'audienceRatings'">Audience Ratings: </span>{{ movieById.audienceRatings
+            }}</mat-list-item>
+    </mat-list>
+    <button mat-raised-button color="primary" *ngIf="roles.includes('manager')||roles.includes('admin')"
+        (click)="editMovie(movieId)">Edit</button>
+    <button [ngStyle]="{'float':'right'}" mat-raised-button color="warn" *ngIf="roles.includes('admin')"
+        (click)="openDeleteDialog()">Delete</button>
+</fieldset>
+<button class="button right" color="primary" (click)="goBack()">Back</button>

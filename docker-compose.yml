@@ -1,0 +1,99 @@
+version: '3'
+services:
+  orientdb: 
+    image: orientdb:3.2.13
+    ports:
+      - "2480:2480"
+    environment:
+      - ORIENTDB_ROOT_PASSWORD=root
+      - ORIENTDB_DATABASE=MovieDB
+
+  eureka-registry:
+    image: hariharanbaskarraj/eureka
+    container_name: eureka-registry
+    environment:
+      - hostname=localhost
+      - server.port=8761
+    ports:
+      - "8761:8761"
+    
+      
+  config-server:
+    image: hariharanbaskarraj/config
+    container_name: config-server
+    ports:
+      - "8888:8888"
+    environment:
+      - server.port=8888
+      - eureka.client.service-url.defaultZone=http://eureka-registry:8761/eureka/
+      - spring.cloud.config.default-label=main
+    depends_on:
+      - eureka-registry
+  
+
+  gateway:
+    image: hariharanbaskarraj/gateway
+    container_name: gateway-api
+    ports:
+      - "9000:9000"
+    environment:
+      - server.port=9000
+      - eureka.client.service-url.defaultZone=http://eureka-registry:8761/eureka/
+      # - spring.cloud.config.failFast=false
+      # - spring.cloud.config.retry.initialInterval=3000
+      # - spring.cloud.config.retry.multiplier=1.3
+      # - spring.cloud.config.retry.maxInterval=10000
+      # - spring.cloud.config.retry.maxAttempts=10
+      - confighost=config-server
+      - configport=8888
+    depends_on:
+      - eureka-registry
+      - config-server
+    restart: on-failure
+    
+
+  movie-retrieve:
+    image: hariharanbaskarraj/retrieve
+    container_name: movie-retrieve
+    ports:
+      - "8082:8082"
+    environment:
+      - server.port=8082
+      - eureka.client.service-url.defaultZone=http://eureka-registry:8761/eureka/
+      # - spring.cloud.config.failFast=false
+      # - spring.cloud.config.retry.initialInterval=3000
+      # - spring.cloud.config.retry.multiplier=1.3
+      # - spring.cloud.config.retry.maxInterval=10000
+      # - spring.cloud.config.retry.maxAttempts=10
+      - confighost=config-server
+      - configport=8888
+    depends_on:
+      - eureka-registry
+      - config-server
+      - orientdb
+    restart: on-failure
+    links:
+      - orientdb:orientdb
+
+  service-api:
+    image: hariharanbaskarraj/service
+    container_name: service-api
+    ports:
+      - "8081:8081"
+    environment:
+      - server.port=8081
+      - eureka.client.service-url.defaultZone=http://eureka-registry:8761/eureka/
+      # - spring.cloud.config.failFast=false
+      # - spring.cloud.config.retry.initialInterval=3000
+      # - spring.cloud.config.retry.multiplier=1.3
+      # - spring.cloud.config.retry.maxInterval=10000
+      # - spring.cloud.config.retry.maxAttempts=10
+      - confighost=config-server
+      - configport=8888
+    depends_on:
+      - eureka-registry
+      - config-server
+      - orientdb
+    restart: on-failure
+    links:
+      - orientdb:orientdb

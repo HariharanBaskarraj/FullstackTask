@@ -1,0 +1,97 @@
+div {
+    overflow: hidden;
+}
+
+.image {
+    padding-left: 25px;
+    width: 220px;
+    height: 275px;
+}
+
+.sort {
+    padding-left: 16px;
+    left: 80%;
+    cursor: pointer;
+    transform: scale(1.5);
+    margin: 15px 15px 0px 0px;
+    position: relative;
+}
+
+button {
+    margin-top: 15px;
+}
+
+mat-card,
+.mat-card-subtitle {
+    background-color: #E6DDC4;
+    color: #2D033B;
+    border-radius: 32px;
+}
+
+.card-title {
+    color: brown
+}
+
+.mat-option.mat-selected:not(.mat-option-disabled) {
+    color: #E6DDC4;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    height: 8px;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #22A39F;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    min-height: 40px;
+}
+
+.sortField {
+    left: 80%;
+}
+
+@media screen and (min-width:769px)and (max-width:1024px) {
+
+    .sort {
+        position: relative;
+        cursor: pointer;
+        padding-left: 50px;
+        transform: scale(1.5);
+        margin: 15px 15px 0px 0px;
+    }
+
+    .sortField {
+        left: 45%;
+    }
+
+    .image {
+        width: 100px;
+        height: 275px;
+    }
+}
+
+@media screen and (min-width:0px)and (max-width:768px) {
+    .sort {
+        position: relative;
+        left: 17%;
+        padding-left: 50px;
+        transform: scale(1.5);
+        margin: 15px 15px 0px 0px;
+        position: relative;
+    }
+
+    .sortField {
+        left: 25%;
+    }
+
+    .image {
+        width: 10px;
+        height: 275px;
+    }
+}

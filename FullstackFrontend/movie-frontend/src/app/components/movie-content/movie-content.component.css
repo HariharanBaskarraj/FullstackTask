@@ -1,0 +1,22 @@
+.card{
+    margin:10px;
+}
+
+.add{
+    left:1100px;
+    background-color: #FF0032;
+}
+
+@media screen and (min-width:769px)and (max-width:1024px) {
+    .add{
+        left:490px;
+        background-color: #FF0032;
+    }
+}
+
+@media screen and (min-width:0px)and (max-width:768px) {
+    .add{
+        left:250px;
+        background-color: #FF0032;
+    }
+}

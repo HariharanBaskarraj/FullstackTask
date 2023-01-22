@@ -1,0 +1,10 @@
+<app-progress-bar (progressValue)="getProgressValue($event)"></app-progress-bar>
+<mat-toolbar color="primary">
+  <span (click)="goHome()"> Movie Details</span>
+  <button (click)="logout()" [ngClass]="'profile'" mat-icon-button>
+    <mat-icon>logout</mat-icon>
+  </button>
+  <button (click)="userProfile()" [ngClass]="'profile'" mat-icon-button>
+    <mat-icon>account_circle</mat-icon>
+  </button>
+</mat-toolbar>

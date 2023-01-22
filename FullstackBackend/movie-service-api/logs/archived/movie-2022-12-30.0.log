@@ -1,0 +1,536 @@
+2022-12-30 00:02:30,263 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 00:07:30,321 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 00:12:30,324 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 00:17:30,335 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 00:22:30,349 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 00:27:30,352 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 00:32:30,367 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 00:37:30,374 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 00:42:30,378 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 00:47:30,396 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 00:52:30,400 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 07:46:31,449 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 07:51:31,462 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 07:56:31,472 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 08:01:31,482 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 08:06:31,491 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 08:11:31,494 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 08:16:31,497 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 08:21:31,511 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 08:26:31,522 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 08:31:31,533 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 08:36:31,546 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 08:41:31,563 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 08:46:31,577 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 08:51:31,584 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 08:56:31,593 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 09:01:31,605 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 09:06:31,613 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 09:11:31,623 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 09:16:31,627 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 09:21:31,629 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 09:26:31,633 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 09:31:31,637 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 09:36:31,645 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 09:41:31,655 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 09:46:31,659 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 09:51:31,669 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 09:56:31,680 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 10:01:31,684 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 10:04:24,136 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(456)-127.0.0.1] Application shutdown requested.
+2022-12-30 10:04:24,217 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(456)-127.0.0.1] Unregistering application MOVIE-SERVICE with eureka with status DOWN
+2022-12-30 10:04:24,221 INFO com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(456)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1672374864221, current=DOWN, previous=UP]
+2022-12-30 10:04:24,227 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082: registering service...
+2022-12-30 10:04:24,285 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082 - registration status: 204
+2022-12-30 10:04:24,311 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(456)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8082"]
+2022-12-30 10:04:24,313 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(456)-127.0.0.1] Stopping service [Tomcat]
+2022-12-30 10:04:24,321 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(456)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-30 10:04:24,390 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(456)-127.0.0.1] The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.SynchronousQueue$TransferStack$SNode.block(SynchronousQueue.java:288)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:397)
+ java.base@17.0.4.1/java.util.concurrent.SynchronousQueue.put(SynchronousQueue.java:839)
+ app//com.orientechnologies.orient.client.remote.OStorageRemotePushThread.run(OStorageRemotePushThread.java:60)
+2022-12-30 10:04:24,402 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(456)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8082"]
+2022-12-30 10:04:24,412 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(456)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8082"]
+2022-12-30 10:04:24,710 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(456)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-12-30 10:04:27,727 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(456)-127.0.0.1] Unregistering ...
+2022-12-30 10:04:27,739 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(456)-127.0.0.1] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082 - deregister  status: 200
+2022-12-30 10:04:27,744 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(456)-127.0.0.1] Completed shut down of DiscoveryClient
+2022-12-30 10:04:43,266 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieCrudApiApplication using Java 17.0.4.1 on Hariharan with PID 11068 (C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-crud-api\target\classes started by HariharanB in C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-crud-api)
+2022-12-30 10:04:43,269 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2022-12-30 10:04:43,270 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 10:04:43,354 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2022-12-30 10:04:43,355 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=MOVIE-SERVICE, profiles=[default], label=null, version=f39934bd53c81fb9392592459862ebd6355ba5ff, state=null
+2022-12-30 10:04:44,256 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=fe69f9ff-3a4f-39da-9b42-0fb814ab1c56
+2022-12-30 10:04:44,544 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-12-30 10:04:44,557 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-12-30 10:04:44,557 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-12-30 10:04:44,557 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-30 10:04:44,717 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-12-30 10:04:44,718 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1358 ms
+2022-12-30 10:04:44,987 INFO com.orientechnologies.common.log.OLogManager [main] Windows OS is detected, 262144 limit of open files will be set for the disk cache.
+2022-12-30 10:04:45,833 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-12-30 10:04:45,893 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-30 10:04:45,897 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-30 10:04:45,961 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-12-30 10:04:46,003 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-12-30 10:04:46,008 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-12-30 10:04:46,032 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-12-30 10:04:46,033 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-12-30 10:04:46,033 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-12-30 10:04:46,033 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-12-30 10:04:46,033 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-12-30 10:04:46,033 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-12-30 10:04:46,033 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-12-30 10:04:46,261 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-12-30 10:04:46,264 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-12-30 10:04:46,267 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-12-30 10:04:46,271 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1672374886270 with initial instances count: 3
+2022-12-30 10:04:46,272 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MOVIE-SERVICE with eureka with status UP
+2022-12-30 10:04:46,272 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1672374886272, current=UP, previous=STARTING]
+2022-12-30 10:04:46,274 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/Hariharan:MOVIE-SERVICE:8082: registering service...
+2022-12-30 10:04:46,274 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-12-30 10:04:46,304 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-30 10:04:46,305 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8082
+2022-12-30 10:04:46,316 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/Hariharan:MOVIE-SERVICE:8082 - registration status: 204
+2022-12-30 10:04:46,447 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieCrudApiApplication in 6.657 seconds (JVM running for 7.397)
+2022-12-30 10:04:47,831 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-30 10:04:47,831 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-12-30 10:04:47,833 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Completed initialization in 1 ms
+2022-12-30 10:09:46,040 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 10:14:46,049 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 10:34:32,187 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 10:39:32,190 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 10:44:32,193 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 10:49:32,199 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 10:54:32,212 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 10:59:32,215 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 11:04:06,622 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(59)-127.0.0.1] Application shutdown requested.
+2022-12-30 11:04:06,649 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(59)-127.0.0.1] Unregistering application MOVIE-SERVICE with eureka with status DOWN
+2022-12-30 11:04:06,652 INFO com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(59)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1672378446652, current=DOWN, previous=UP]
+2022-12-30 11:04:06,654 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/Hariharan:MOVIE-SERVICE:8082: registering service...
+2022-12-30 11:04:06,709 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/Hariharan:MOVIE-SERVICE:8082 - registration status: 204
+2022-12-30 11:04:06,744 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(59)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:04:06,745 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(59)-127.0.0.1] Stopping service [Tomcat]
+2022-12-30 11:04:06,751 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(59)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-30 11:04:06,771 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(59)-127.0.0.1] The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/sun.nio.ch.Net.poll(Native Method)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:181)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:285)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+ java.base@17.0.4.1/java.net.Socket$SocketInputStream.read(Socket.java:966)
+ java.base@17.0.4.1/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+ java.base@17.0.4.1/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+ java.base@17.0.4.1/java.io.DataInputStream.readByte(DataInputStream.java:271)
+ app//com.orientechnologies.orient.enterprise.channel.binary.OChannelBinary.readByte(OChannelBinary.java:78)
+ app//com.orientechnologies.orient.client.remote.OStorageRemotePushThread.run(OStorageRemotePushThread.java:53)
+2022-12-30 11:04:06,776 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(59)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:04:06,779 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(59)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:04:06,850 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(59)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-12-30 11:04:09,856 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(59)-127.0.0.1] Unregistering ...
+2022-12-30 11:04:09,869 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(59)-127.0.0.1] DiscoveryClient_MOVIE-SERVICE/Hariharan:MOVIE-SERVICE:8082 - deregister  status: 200
+2022-12-30 11:04:09,884 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(59)-127.0.0.1] Completed shut down of DiscoveryClient
+2022-12-30 11:04:17,029 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieCrudApiApplication using Java 17.0.4.1 on Hariharan with PID 28552 (C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-crud-api\target\classes started by HariharanB in C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-crud-api)
+2022-12-30 11:04:17,035 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2022-12-30 11:04:17,036 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 11:04:17,122 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2022-12-30 11:04:17,122 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=MOVIE-SERVICE, profiles=[default], label=null, version=f39934bd53c81fb9392592459862ebd6355ba5ff, state=null
+2022-12-30 11:04:19,298 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=d926e000-7793-363c-9478-d85b298b0f64
+2022-12-30 11:04:20,138 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-12-30 11:04:20,170 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:04:20,171 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-12-30 11:04:20,172 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-30 11:04:20,510 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-12-30 11:04:20,511 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3385 ms
+2022-12-30 11:04:21,153 INFO com.orientechnologies.common.log.OLogManager [main] Windows OS is detected, 262144 limit of open files will be set for the disk cache.
+2022-12-30 11:04:22,800 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-30 11:04:22,867 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1450ffa3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e756867, org.springframework.security.web.context.SecurityContextPersistenceFilter@280ecc33, org.springframework.security.web.header.HeaderWriterFilter@3d8d52be, org.springframework.web.filter.CorsFilter@38ebc866, org.springframework.security.web.csrf.CsrfFilter@3c9e19de, org.springframework.security.web.authentication.logout.LogoutFilter@74bbc273, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@53e4a19e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3c27f72, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5cbe95b1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6adcf059, org.springframework.security.web.session.SessionManagementFilter@2c2a7d53, org.springframework.security.web.access.ExceptionTranslationFilter@6b9a1205, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d4502ca]
+2022-12-30 11:04:23,632 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-12-30 11:04:23,815 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-30 11:04:23,976 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-12-30 11:04:24,085 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-12-30 11:04:24,098 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-12-30 11:04:24,140 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-12-30 11:04:24,140 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-12-30 11:04:24,140 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-12-30 11:04:24,141 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-12-30 11:04:24,141 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-12-30 11:04:24,141 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-12-30 11:04:24,142 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-12-30 11:04:24,505 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-12-30 11:04:24,511 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-12-30 11:04:24,516 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-12-30 11:04:24,525 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1672378464524 with initial instances count: 2
+2022-12-30 11:04:24,535 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MOVIE-SERVICE with eureka with status UP
+2022-12-30 11:04:24,536 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1672378464536, current=UP, previous=STARTING]
+2022-12-30 11:04:24,541 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082: registering service...
+2022-12-30 11:04:24,542 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:04:24,606 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-30 11:04:24,608 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8082
+2022-12-30 11:04:24,641 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082 - registration status: 204
+2022-12-30 11:04:24,982 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieCrudApiApplication in 11.354 seconds (JVM running for 12.679)
+2022-12-30 11:04:26,529 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-30 11:04:26,529 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-12-30 11:04:26,531 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Completed initialization in 2 ms
+2022-12-30 11:07:07,490 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8082-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.oauth2.jwt.JwtDecoderInitializationException: Failed to lazily resolve the supplied JwtDecoder instance
+	at org.springframework.security.oauth2.jwt.SupplierJwtDecoder.wrapException(SupplierJwtDecoder.java:58)
+	at org.springframework.security.oauth2.jwt.SupplierJwtDecoder.decode(SupplierJwtDecoder.java:49)
+	at org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider.getJwt(JwtAuthenticationProvider.java:97)
+	at org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider.authenticate(JwtAuthenticationProvider.java:88)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:134)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalArgumentException: Unable to resolve the Configuration with the provided Issuer of "http://localhost:8080/realms/movierealm"
+	at org.springframework.security.oauth2.jwt.JwtDecoderProviderConfigurationUtils.getConfiguration(JwtDecoderProviderConfigurationUtils.java:166)
+	at org.springframework.security.oauth2.jwt.JwtDecoderProviderConfigurationUtils.getConfigurationForIssuerLocation(JwtDecoderProviderConfigurationUtils.java:79)
+	at org.springframework.security.oauth2.jwt.JwtDecoders.fromIssuerLocation(JwtDecoders.java:93)
+	at org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerJwtConfiguration$JwtDecoderConfiguration.lambda$jwtDecoderByIssuerUri$3(OAuth2ResourceServerJwtConfiguration.java:141)
+	at org.springframework.security.oauth2.jwt.SupplierJwtDecoder.decode(SupplierJwtDecoder.java:46)
+	... 66 common frames omitted
+2022-12-30 11:07:07,696 WARN org.apache.juli.logging.DirectJDKLog [http-nio-8082-exec-1] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [147] milliseconds.
+2022-12-30 11:09:24,145 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 11:11:10,651 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8082-exec-4] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.oauth2.jwt.JwtDecoderInitializationException: Failed to lazily resolve the supplied JwtDecoder instance
+	at org.springframework.security.oauth2.jwt.SupplierJwtDecoder.wrapException(SupplierJwtDecoder.java:58)
+	at org.springframework.security.oauth2.jwt.SupplierJwtDecoder.decode(SupplierJwtDecoder.java:49)
+	at org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider.getJwt(JwtAuthenticationProvider.java:97)
+	at org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider.authenticate(JwtAuthenticationProvider.java:88)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:134)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalArgumentException: Unable to resolve the Configuration with the provided Issuer of "http://localhost:8080/realms/movierealm"
+	at org.springframework.security.oauth2.jwt.JwtDecoderProviderConfigurationUtils.getConfiguration(JwtDecoderProviderConfigurationUtils.java:166)
+	at org.springframework.security.oauth2.jwt.JwtDecoderProviderConfigurationUtils.getConfigurationForIssuerLocation(JwtDecoderProviderConfigurationUtils.java:79)
+	at org.springframework.security.oauth2.jwt.JwtDecoders.fromIssuerLocation(JwtDecoders.java:93)
+	at org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerJwtConfiguration$JwtDecoderConfiguration.lambda$jwtDecoderByIssuerUri$3(OAuth2ResourceServerJwtConfiguration.java:141)
+	at org.springframework.security.oauth2.jwt.SupplierJwtDecoder.decode(SupplierJwtDecoder.java:46)
+	... 66 common frames omitted
+2022-12-30 11:14:04,518 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(21)-127.0.0.1] Application shutdown requested.
+2022-12-30 11:14:04,522 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(21)-127.0.0.1] Unregistering application MOVIE-SERVICE with eureka with status DOWN
+2022-12-30 11:14:04,524 INFO com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(21)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1672379044524, current=DOWN, previous=UP]
+2022-12-30 11:14:04,525 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082: registering service...
+2022-12-30 11:14:04,543 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082 - registration status: 204
+2022-12-30 11:14:04,574 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(21)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:14:04,576 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(21)-127.0.0.1] Stopping service [Tomcat]
+2022-12-30 11:14:04,579 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(21)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-30 11:14:04,614 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(21)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:14:04,620 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(21)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:14:04,764 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(21)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-12-30 11:14:07,773 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(21)-127.0.0.1] Unregistering ...
+2022-12-30 11:14:07,793 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(21)-127.0.0.1] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082 - deregister  status: 200
+2022-12-30 11:14:07,823 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(21)-127.0.0.1] Completed shut down of DiscoveryClient
+2022-12-30 11:14:15,934 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieCrudApiApplication using Java 17.0.4.1 on Hariharan with PID 28840 (C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-crud-api\target\classes started by HariharanB in C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-crud-api)
+2022-12-30 11:14:15,944 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2022-12-30 11:14:15,947 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 11:14:16,093 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2022-12-30 11:14:16,094 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=MOVIE-SERVICE, profiles=[default], label=null, version=f39934bd53c81fb9392592459862ebd6355ba5ff, state=null
+2022-12-30 11:14:18,313 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=d926e000-7793-363c-9478-d85b298b0f64
+2022-12-30 11:14:18,885 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-12-30 11:14:18,913 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:14:18,915 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-12-30 11:14:18,917 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-30 11:14:19,256 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-12-30 11:14:19,257 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3156 ms
+2022-12-30 11:14:19,623 INFO com.orientechnologies.common.log.OLogManager [main] Windows OS is detected, 262144 limit of open files will be set for the disk cache.
+2022-12-30 11:14:20,777 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-30 11:14:20,878 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1fc5c0b2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45ad3cd8, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a122e68, org.springframework.security.web.header.HeaderWriterFilter@b9b97ad, org.springframework.web.filter.CorsFilter@2b90cc1, org.springframework.security.web.csrf.CsrfFilter@224e6e88, org.springframework.security.web.authentication.logout.LogoutFilter@628962e5, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@949d347, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c2a7d53, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46524ebe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a2f401a, org.springframework.security.web.session.SessionManagementFilter@70cf7d1e, org.springframework.security.web.access.ExceptionTranslationFilter@542ff147, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d718248]
+2022-12-30 11:14:22,062 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-12-30 11:14:22,251 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-30 11:14:22,375 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-12-30 11:14:22,469 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-12-30 11:14:22,484 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-12-30 11:14:22,539 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-12-30 11:14:22,540 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-12-30 11:14:22,542 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-12-30 11:14:22,542 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-12-30 11:14:22,543 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-12-30 11:14:22,543 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-12-30 11:14:22,543 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-12-30 11:14:23,097 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-12-30 11:14:23,103 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-12-30 11:14:23,109 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-12-30 11:14:23,120 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1672379063119 with initial instances count: 2
+2022-12-30 11:14:23,126 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MOVIE-SERVICE with eureka with status UP
+2022-12-30 11:14:23,128 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1672379063128, current=UP, previous=STARTING]
+2022-12-30 11:14:23,133 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082: registering service...
+2022-12-30 11:14:23,134 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:14:23,199 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-30 11:14:23,201 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8082
+2022-12-30 11:14:23,228 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082 - registration status: 204
+2022-12-30 11:14:23,507 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieCrudApiApplication in 11.044 seconds (JVM running for 12.936)
+2022-12-30 11:14:24,703 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-30 11:14:24,704 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-12-30 11:14:24,706 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Completed initialization in 2 ms
+2022-12-30 11:19:22,556 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 11:24:22,566 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 11:27:12,597 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(22)-127.0.0.1] Application shutdown requested.
+2022-12-30 11:27:12,600 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(22)-127.0.0.1] Unregistering application MOVIE-SERVICE with eureka with status DOWN
+2022-12-30 11:27:12,602 INFO com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(22)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1672379832602, current=DOWN, previous=UP]
+2022-12-30 11:27:12,602 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082: registering service...
+2022-12-30 11:27:12,612 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082 - registration status: 204
+2022-12-30 11:27:12,627 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(22)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:27:12,628 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(22)-127.0.0.1] Stopping service [Tomcat]
+2022-12-30 11:27:12,630 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(22)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-30 11:27:12,642 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(22)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:27:12,644 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(22)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:27:12,708 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(22)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-12-30 11:27:15,713 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(22)-127.0.0.1] Unregistering ...
+2022-12-30 11:27:15,732 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(22)-127.0.0.1] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082 - deregister  status: 200
+2022-12-30 11:27:15,747 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(22)-127.0.0.1] Completed shut down of DiscoveryClient
+2022-12-30 11:27:23,359 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieCrudApiApplication using Java 17.0.4.1 on Hariharan with PID 6488 (C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-crud-api\target\classes started by HariharanB in C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-crud-api)
+2022-12-30 11:27:23,364 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2022-12-30 11:27:23,365 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 11:27:23,458 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2022-12-30 11:27:23,458 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=MOVIE-SERVICE, profiles=[default], label=null, version=f39934bd53c81fb9392592459862ebd6355ba5ff, state=null
+2022-12-30 11:27:25,310 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=043026cb-11ec-3692-88cc-14c38c2349b0
+2022-12-30 11:27:25,834 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-12-30 11:27:25,854 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:27:25,855 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-12-30 11:27:25,856 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-30 11:27:26,163 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-12-30 11:27:26,164 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2703 ms
+2022-12-30 11:27:26,639 INFO com.orientechnologies.common.log.OLogManager [main] Windows OS is detected, 262144 limit of open files will be set for the disk cache.
+2022-12-30 11:27:28,489 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@114b2414, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57920d6c, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c3cd7a5, org.springframework.security.web.header.HeaderWriterFilter@24d7657b, org.springframework.security.web.csrf.CsrfFilter@2d7aa291, org.springframework.security.web.authentication.logout.LogoutFilter@408d945b, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@674ed201, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6eb5b9e7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77e730bd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@465d1345, org.springframework.security.web.session.SessionManagementFilter@54bc3bcf, org.springframework.security.web.access.ExceptionTranslationFilter@3245efdb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2cebf82f]
+2022-12-30 11:27:28,858 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-12-30 11:27:28,982 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-30 11:27:28,987 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-30 11:27:29,062 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-12-30 11:27:29,108 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-12-30 11:27:29,115 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-12-30 11:27:29,144 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-12-30 11:27:29,144 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-12-30 11:27:29,144 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-12-30 11:27:29,144 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-12-30 11:27:29,145 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-12-30 11:27:29,145 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-12-30 11:27:29,145 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-12-30 11:27:29,451 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-12-30 11:27:29,455 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-12-30 11:27:29,459 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-12-30 11:27:29,466 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1672379849465 with initial instances count: 3
+2022-12-30 11:27:29,467 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MOVIE-SERVICE with eureka with status UP
+2022-12-30 11:27:29,468 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1672379849468, current=UP, previous=STARTING]
+2022-12-30 11:27:29,470 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082: registering service...
+2022-12-30 11:27:29,471 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:27:29,503 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-30 11:27:29,504 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8082
+2022-12-30 11:27:29,520 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082 - registration status: 204
+2022-12-30 11:27:29,708 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieCrudApiApplication in 10.053 seconds (JVM running for 11.538)
+2022-12-30 11:27:31,004 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-30 11:27:31,005 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-12-30 11:27:31,007 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Completed initialization in 2 ms
+2022-12-30 11:28:29,078 WARN org.apache.juli.logging.DirectJDKLog [http-nio-8082-exec-2] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [160] milliseconds.
+2022-12-30 11:31:11,899 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(14)-127.0.0.1] Application shutdown requested.
+2022-12-30 11:31:11,903 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(14)-127.0.0.1] Unregistering application MOVIE-SERVICE with eureka with status DOWN
+2022-12-30 11:31:11,906 INFO com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(14)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1672380071905, current=DOWN, previous=UP]
+2022-12-30 11:31:11,907 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082: registering service...
+2022-12-30 11:31:11,921 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082 - registration status: 204
+2022-12-30 11:31:11,960 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(14)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:31:11,961 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(14)-127.0.0.1] Stopping service [Tomcat]
+2022-12-30 11:31:11,966 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(14)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-30 11:31:11,987 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(14)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:31:11,992 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(14)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:31:12,112 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(14)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-12-30 11:31:15,116 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(14)-127.0.0.1] Unregistering ...
+2022-12-30 11:31:15,133 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(14)-127.0.0.1] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082 - deregister  status: 200
+2022-12-30 11:31:15,146 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(14)-127.0.0.1] Completed shut down of DiscoveryClient
+2022-12-30 11:31:22,428 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieCrudApiApplication using Java 17.0.4.1 on Hariharan with PID 16860 (C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-crud-api\target\classes started by HariharanB in C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-crud-api)
+2022-12-30 11:31:22,431 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2022-12-30 11:31:22,432 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 11:31:22,492 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2022-12-30 11:31:22,493 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=MOVIE-SERVICE, profiles=[default], label=null, version=f39934bd53c81fb9392592459862ebd6355ba5ff, state=null
+2022-12-30 11:31:24,649 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=fe69f9ff-3a4f-39da-9b42-0fb814ab1c56
+2022-12-30 11:31:25,308 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-12-30 11:31:25,319 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:31:25,320 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-12-30 11:31:25,320 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-30 11:31:25,519 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-12-30 11:31:25,519 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3024 ms
+2022-12-30 11:31:26,118 INFO com.orientechnologies.common.log.OLogManager [main] Windows OS is detected, 262144 limit of open files will be set for the disk cache.
+2022-12-30 11:31:27,995 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-12-30 11:31:28,149 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-30 11:31:28,155 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-30 11:31:28,235 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-12-30 11:31:28,281 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-12-30 11:31:28,290 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-12-30 11:31:28,324 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-12-30 11:31:28,324 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-12-30 11:31:28,325 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-12-30 11:31:28,325 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-12-30 11:31:28,325 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-12-30 11:31:28,326 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-12-30 11:31:28,326 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-12-30 11:31:28,658 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-12-30 11:31:28,661 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-12-30 11:31:28,665 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-12-30 11:31:28,670 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1672380088669 with initial instances count: 3
+2022-12-30 11:31:28,671 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MOVIE-SERVICE with eureka with status UP
+2022-12-30 11:31:28,672 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1672380088672, current=UP, previous=STARTING]
+2022-12-30 11:31:28,674 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082: registering service...
+2022-12-30 11:31:28,674 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-12-30 11:31:28,702 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-30 11:31:28,702 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8082
+2022-12-30 11:31:28,722 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082 - registration status: 204
+2022-12-30 11:31:29,220 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieCrudApiApplication in 10.483 seconds (JVM running for 11.85)
+2022-12-30 11:31:30,222 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(8)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-30 11:31:30,223 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(8)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-12-30 11:31:30,225 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(8)-127.0.0.1] Completed initialization in 1 ms
+2022-12-30 11:36:28,344 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 11:41:28,358 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 11:46:28,360 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 11:51:28,368 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 11:56:28,372 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 12:01:28,387 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 12:06:28,391 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 12:11:28,393 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 12:16:28,396 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 12:21:28,397 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 12:26:28,401 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 12:31:28,405 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 12:36:28,407 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 12:41:28,408 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 12:46:28,410 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 12:51:28,413 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 12:56:28,416 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 13:01:28,418 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 13:06:28,421 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 13:11:28,424 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 13:16:28,426 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 13:21:28,428 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 13:26:28,429 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 13:31:28,432 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 13:36:28,434 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 13:41:28,438 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 13:46:28,441 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 13:51:28,443 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 13:56:28,445 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-30 14:01:28,447 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration

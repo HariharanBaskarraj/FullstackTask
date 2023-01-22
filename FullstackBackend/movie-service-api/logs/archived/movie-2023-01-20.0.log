@@ -1,0 +1,265 @@
+2023-01-20 13:46:29,645 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieServiceApiApplication using Java 17.0.4.1 on Hariharan with PID 12220 (C:\Users\HariharanB\FullstackFinal\movie-service-api\target\classes started by HariharanB in C:\Users\HariharanB\FullstackFinal\movie-service-api)
+2023-01-20 13:46:29,657 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2023-01-20 13:46:29,658 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-20 13:46:29,751 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2023-01-20 13:46:29,752 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=MOVIE-SERVICE, profiles=[default], label=null, version=859c16c98cdc5dea4ed03fb37a9541c751f918d5, state=null
+2023-01-20 13:46:31,835 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=c54b0e7d-f416-3299-9b21-d3e056875b01
+2023-01-20 13:46:32,354 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-01-20 13:46:32,368 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-01-20 13:46:32,369 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-01-20 13:46:32,370 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-20 13:46:32,622 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-01-20 13:46:32,623 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2866 ms
+2023-01-20 13:46:33,066 INFO com.orientechnologies.common.log.OLogManager [main] Windows OS is detected, 262144 limit of open files will be set for the disk cache.
+2023-01-20 13:46:34,770 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-20 13:46:34,938 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@352c3d70, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c13ca07, org.springframework.security.web.context.SecurityContextPersistenceFilter@66b6873f, org.springframework.security.web.header.HeaderWriterFilter@101c15ad, org.springframework.web.filter.CorsFilter@7d17906, org.springframework.security.web.csrf.CsrfFilter@55e42684, org.springframework.security.web.authentication.logout.LogoutFilter@3dd2b9c1, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@4e10a320, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4fa5cc73, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@224e6e88, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@97beeaf, org.springframework.security.web.session.SessionManagementFilter@143413cd, org.springframework.security.web.access.ExceptionTranslationFilter@1aeff8ca, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69de72ec]
+2023-01-20 13:46:36,745 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-01-20 13:46:36,935 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-20 13:46:37,128 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-01-20 13:46:37,261 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-01-20 13:46:37,282 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2023-01-20 13:46:37,366 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2023-01-20 13:46:37,368 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2023-01-20 13:46:37,368 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2023-01-20 13:46:37,369 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2023-01-20 13:46:37,369 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2023-01-20 13:46:37,370 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2023-01-20 13:46:37,371 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2023-01-20 13:46:38,537 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2023-01-20 13:46:38,548 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2023-01-20 13:46:38,562 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-01-20 13:46:38,588 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1674202598584 with initial instances count: 0
+2023-01-20 13:46:38,605 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MOVIE-SERVICE with eureka with status UP
+2023-01-20 13:46:38,608 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1674202598608, current=UP, previous=STARTING]
+2023-01-20 13:46:38,617 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8081: registering service...
+2023-01-20 13:46:38,619 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-01-20 13:46:38,697 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-20 13:46:38,699 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8081
+2023-01-20 13:46:38,748 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8081 - registration status: 204
+2023-01-20 13:46:39,555 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieServiceApiApplication in 12.951 seconds (JVM running for 14.427)
+2023-01-20 13:46:40,972 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(8)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-20 13:46:40,974 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(8)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2023-01-20 13:46:40,981 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(8)-127.0.0.1] Completed initialization in 5 ms
+2023-01-20 13:47:08,553 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2023-01-20 13:47:08,554 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2023-01-20 13:47:08,554 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2023-01-20 13:47:08,554 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2023-01-20 13:47:08,554 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2023-01-20 13:47:08,555 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2023-01-20 13:47:08,555 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2023-01-20 13:47:08,563 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2023-01-20 13:51:37,377 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 13:56:37,379 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 14:01:37,382 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 15:00:53,100 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 15:05:53,101 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 15:10:53,115 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 15:15:53,130 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 15:20:53,145 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 15:25:53,149 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 15:30:53,161 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 15:35:53,163 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 15:40:53,170 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 15:45:53,172 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 15:50:53,182 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 15:55:53,192 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 16:00:53,207 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 16:05:53,218 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 16:10:53,230 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 16:15:53,235 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 16:20:53,251 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 16:25:53,266 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 16:30:53,277 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 16:35:53,284 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 16:40:53,289 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 16:45:53,294 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 16:50:53,309 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 16:55:53,323 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 17:03:14,687 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieServiceApiApplication using Java 17.0.4.1 on Hariharan with PID 13008 (C:\Users\HariharanB\FullstackFinal\movie-service-api\target\classes started by HariharanB in C:\Users\HariharanB\FullstackFinal\movie-service-api)
+2023-01-20 17:03:14,694 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2023-01-20 17:03:14,695 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-20 17:03:14,777 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2023-01-20 17:03:14,778 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=MOVIE-SERVICE, profiles=[default], label=null, version=859c16c98cdc5dea4ed03fb37a9541c751f918d5, state=null
+2023-01-20 17:03:16,218 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=c54b0e7d-f416-3299-9b21-d3e056875b01
+2023-01-20 17:03:16,775 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-01-20 17:03:16,790 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-01-20 17:03:16,791 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-01-20 17:03:16,791 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-20 17:03:17,106 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-01-20 17:03:17,106 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2324 ms
+2023-01-20 17:03:17,691 INFO com.orientechnologies.common.log.OLogManager [main] Windows OS is detected, 262144 limit of open files will be set for the disk cache.
+2023-01-20 17:03:19,013 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-20 17:03:19,109 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d17906, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@97beeaf, org.springframework.security.web.context.SecurityContextPersistenceFilter@632d4cf2, org.springframework.security.web.header.HeaderWriterFilter@224e6e88, org.springframework.web.filter.CorsFilter@5d68954d, org.springframework.security.web.csrf.CsrfFilter@7f2c995b, org.springframework.security.web.authentication.logout.LogoutFilter@4aab7195, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@352c3d70, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@542ff147, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d801d8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f793f15, org.springframework.security.web.session.SessionManagementFilter@2299d903, org.springframework.security.web.access.ExceptionTranslationFilter@52285a5f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d6f6ca9]
+2023-01-20 17:03:20,461 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-01-20 17:03:20,560 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-20 17:03:20,646 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-01-20 17:03:20,711 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-01-20 17:03:20,732 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2023-01-20 17:03:20,785 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2023-01-20 17:03:20,785 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2023-01-20 17:03:20,786 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2023-01-20 17:03:20,786 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2023-01-20 17:03:20,786 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2023-01-20 17:03:20,786 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2023-01-20 17:03:20,787 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2023-01-20 17:03:21,153 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2023-01-20 17:03:21,156 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2023-01-20 17:03:21,161 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-01-20 17:03:21,169 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1674214401167 with initial instances count: 0
+2023-01-20 17:03:21,173 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MOVIE-SERVICE with eureka with status UP
+2023-01-20 17:03:21,175 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1674214401175, current=UP, previous=STARTING]
+2023-01-20 17:03:21,178 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8081: registering service...
+2023-01-20 17:03:21,179 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-01-20 17:03:21,220 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-20 17:03:21,221 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8081
+2023-01-20 17:03:21,251 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8081 - registration status: 204
+2023-01-20 17:03:21,588 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieServiceApiApplication in 9.969 seconds (JVM running for 11.383)
+2023-01-20 17:03:22,666 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(8)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-20 17:03:22,667 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(8)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2023-01-20 17:03:22,670 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(8)-127.0.0.1] Completed initialization in 2 ms
+2023-01-20 17:03:51,158 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2023-01-20 17:03:51,159 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2023-01-20 17:03:51,160 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2023-01-20 17:03:51,160 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2023-01-20 17:03:51,160 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2023-01-20 17:03:51,160 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2023-01-20 17:03:51,161 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2023-01-20 17:03:51,174 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2023-01-20 17:08:20,791 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 17:13:20,794 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 17:18:20,796 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 17:23:20,798 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 17:28:20,811 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 17:33:20,818 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 17:38:20,820 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 17:43:20,834 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 17:49:00,483 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieServiceApiApplication using Java 17.0.4.1 on Hariharan with PID 12552 (C:\Users\HariharanB\FullstackFinal\movie-service-api\target\classes started by HariharanB in C:\Users\HariharanB\FullstackFinal\movie-service-api)
+2023-01-20 17:49:00,490 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2023-01-20 17:49:00,491 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-20 17:49:00,545 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2023-01-20 17:49:00,546 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=MOVIE-SERVICE, profiles=[default], label=null, version=859c16c98cdc5dea4ed03fb37a9541c751f918d5, state=null
+2023-01-20 17:49:01,564 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=c54b0e7d-f416-3299-9b21-d3e056875b01
+2023-01-20 17:49:01,925 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-01-20 17:49:01,938 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-01-20 17:49:01,939 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-01-20 17:49:01,939 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-20 17:49:02,110 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-01-20 17:49:02,111 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1562 ms
+2023-01-20 17:49:02,373 INFO com.orientechnologies.common.log.OLogManager [main] Windows OS is detected, 262144 limit of open files will be set for the disk cache.
+2023-01-20 17:49:03,034 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-20 17:49:03,075 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d17906, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@97beeaf, org.springframework.security.web.context.SecurityContextPersistenceFilter@632d4cf2, org.springframework.security.web.header.HeaderWriterFilter@224e6e88, org.springframework.web.filter.CorsFilter@5d68954d, org.springframework.security.web.csrf.CsrfFilter@7f2c995b, org.springframework.security.web.authentication.logout.LogoutFilter@4aab7195, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@352c3d70, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@542ff147, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d801d8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f793f15, org.springframework.security.web.session.SessionManagementFilter@2299d903, org.springframework.security.web.access.ExceptionTranslationFilter@52285a5f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d6f6ca9]
+2023-01-20 17:49:03,612 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-01-20 17:49:03,671 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-20 17:49:03,721 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-01-20 17:49:03,753 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-01-20 17:49:03,758 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2023-01-20 17:49:03,785 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2023-01-20 17:49:03,785 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2023-01-20 17:49:03,785 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2023-01-20 17:49:03,786 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2023-01-20 17:49:03,786 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2023-01-20 17:49:03,786 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2023-01-20 17:49:03,786 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2023-01-20 17:49:04,008 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2023-01-20 17:49:04,011 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2023-01-20 17:49:04,015 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-01-20 17:49:04,020 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1674217144019 with initial instances count: 1
+2023-01-20 17:49:04,022 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MOVIE-SERVICE with eureka with status UP
+2023-01-20 17:49:04,023 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1674217144023, current=UP, previous=STARTING]
+2023-01-20 17:49:04,025 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8081: registering service...
+2023-01-20 17:49:04,026 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-01-20 17:49:04,051 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-20 17:49:04,051 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8081
+2023-01-20 17:49:04,064 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8081 - registration status: 204
+2023-01-20 17:49:04,305 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieServiceApiApplication in 5.901 seconds (JVM running for 6.942)
+2023-01-20 17:49:05,127 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-20 17:49:05,127 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2023-01-20 17:49:05,129 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Completed initialization in 2 ms
+2023-01-20 17:54:03,791 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 17:59:03,795 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 18:04:03,799 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 18:09:02,733 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 18:14:02,741 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 18:19:02,747 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 18:24:02,761 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 18:29:02,763 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 18:34:02,778 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 18:39:02,788 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 18:44:02,799 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 18:49:02,801 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 18:54:02,819 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 18:59:02,821 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 19:04:02,835 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 19:09:02,852 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 19:14:02,867 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 19:19:02,870 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 19:24:02,872 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 19:29:02,877 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 19:34:02,892 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 19:34:12,785 INFO com.movie.controllers.MovieController [http-nio-8081-exec-1] In Controller, Updating
+2023-01-20 19:34:12,786 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-1] Connecting to the databaseMovieDB
+2023-01-20 19:34:13,044 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-1] MovieDBconnected
+2023-01-20 19:34:13,045 INFO com.movie.service.MovieServiceImpl [http-nio-8081-exec-1] executing query
+2023-01-20 19:39:02,898 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 19:44:02,914 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 19:49:02,927 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 19:54:02,931 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 19:59:02,947 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 20:04:02,951 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 20:09:02,957 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 20:14:02,960 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 20:19:02,964 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 20:24:02,977 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 20:29:02,978 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 20:34:02,989 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-20 20:42:17,568 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieServiceApiApplication using Java 17.0.4.1 on Hariharan with PID 17884 (C:\Users\HariharanB\FullstackFinal\movie-service-api\target\classes started by HariharanB in C:\Users\HariharanB\FullstackFinal\movie-service-api)
+2023-01-20 20:42:17,572 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2023-01-20 20:42:17,572 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-20 20:42:17,624 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2023-01-20 20:42:17,625 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=MOVIE-SERVICE, profiles=[default], label=null, version=859c16c98cdc5dea4ed03fb37a9541c751f918d5, state=null
+2023-01-20 20:42:18,874 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=c54b0e7d-f416-3299-9b21-d3e056875b01
+2023-01-20 20:42:19,416 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-01-20 20:42:19,429 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-01-20 20:42:19,430 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-01-20 20:42:19,430 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-20 20:42:19,635 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-01-20 20:42:19,636 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2008 ms
+2023-01-20 20:42:20,051 INFO com.orientechnologies.common.log.OLogManager [main] Windows OS is detected, 262144 limit of open files will be set for the disk cache.
+2023-01-20 20:42:20,956 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-20 20:42:21,006 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d17906, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@97beeaf, org.springframework.security.web.context.SecurityContextPersistenceFilter@52285a5f, org.springframework.security.web.header.HeaderWriterFilter@6068ebb2, org.springframework.web.filter.CorsFilter@5d68954d, org.springframework.security.web.csrf.CsrfFilter@18d610e1, org.springframework.security.web.authentication.logout.LogoutFilter@1de85972, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@352c3d70, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@224e6e88, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70139a81, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f793f15, org.springframework.security.web.session.SessionManagementFilter@4b32465, org.springframework.security.web.access.ExceptionTranslationFilter@7f2c995b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d6f6ca9]
+2023-01-20 20:42:21,764 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-01-20 20:42:21,863 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-20 20:42:21,952 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-01-20 20:42:22,012 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-01-20 20:42:22,020 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2023-01-20 20:42:22,055 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2023-01-20 20:42:22,056 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2023-01-20 20:42:22,056 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2023-01-20 20:42:22,056 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2023-01-20 20:42:22,056 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2023-01-20 20:42:22,057 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2023-01-20 20:42:22,057 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2023-01-20 20:42:22,432 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2023-01-20 20:42:22,436 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2023-01-20 20:42:22,443 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-01-20 20:42:22,452 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1674227542450 with initial instances count: 0
+2023-01-20 20:42:22,457 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MOVIE-SERVICE with eureka with status UP
+2023-01-20 20:42:22,459 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1674227542459, current=UP, previous=STARTING]
+2023-01-20 20:42:22,461 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8081: registering service...
+2023-01-20 20:42:22,462 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-01-20 20:42:22,495 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-20 20:42:22,496 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8081
+2023-01-20 20:42:22,514 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8081 - registration status: 204
+2023-01-20 20:42:22,829 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieServiceApiApplication in 8.144 seconds (JVM running for 9.135)
+2023-01-20 20:42:23,435 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-20 20:42:23,435 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2023-01-20 20:42:23,437 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Completed initialization in 1 ms
+2023-01-20 20:42:52,452 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2023-01-20 20:42:52,453 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2023-01-20 20:42:52,454 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2023-01-20 20:42:52,454 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2023-01-20 20:42:52,454 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2023-01-20 20:42:52,454 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2023-01-20 20:42:52,454 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2023-01-20 20:42:52,464 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2023-01-20 20:47:22,066 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration

@@ -1,0 +1,209 @@
+<fieldset [ngClass]="'outer'">
+  <legend>
+    {{formName}}
+  </legend>
+  <form [formGroup]="movieForm" (ngSubmit)="submitMovie(movieForm)" novalidate>
+
+    {{enter}} the movie ID:
+    <mat-form-field [ngStyle]="{'margin-left': '22.5%'}" appearance="outline">
+      <mat-label>Enter ID</mat-label>
+      <input type="number" matInput formControlName="movieId">
+      <div *ngIf="movieForm.controls['movieId']?.touched" [ngClass]="'errorClass'">
+        <p *ngIf="movieForm.controls['movieId']?.errors?.['required']">Movie ID is required</p>
+      </div>
+    </mat-form-field>
+    <br />
+
+    {{enter}} the movie name:
+    <mat-form-field [ngStyle]="{'margin-left':'19%'}" appearance="outline">
+      <mat-label>Movie Name</mat-label>
+      <input type="text" matInput formControlName="movieName">
+      <div *ngIf="movieForm.controls['movieName']?.touched" [ngClass]="'errorClass'">
+        <p *ngIf="movieForm.controls['movieName']?.errors?.['required']">Movie Name is required</p>
+      </div>
+    </mat-form-field>
+    <br />
+
+    {{enter}} the synopsis:
+    <mat-form-field [ngStyle]="{'margin-left': '22%'}" appearance="outline">
+      <mat-label>Synopsis</mat-label>
+      <textarea matInput formControlName="synopsis"></textarea>
+    </mat-form-field>
+    <br />
+
+    {{enter}} the release date:
+    <mat-form-field [ngStyle]="{'margin-left': '18.5%'}" appearance="outline">
+      <mat-label>Release Date</mat-label>
+      <input matInput [matDatepicker]="picker" matInput formControlName="releaseDate">
+      <mat-hint>MM/DD/YYYY</mat-hint>
+      <span><mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker></span>
+      <div *ngIf="movieForm.controls['releaseDate']?.touched" [ngClass]="'errorClass'">
+        <p *ngIf="movieForm.controls['releaseDate']?.errors?.['required']">Release Date is required</p>
+      </div>
+    </mat-form-field>
+    <br />
+
+    {{enter}} runtime:
+    <mat-form-field [ngStyle]="{'margin-left': '27%'}" appearance="outline">
+      <mat-label>Runtime</mat-label>
+      <input type="number" matInput formControlName="runtime">
+    </mat-form-field>
+    <br />
+
+    {{enter}} genre:
+    <fieldset [ngClass]="'inner'">
+      <legend>Genre</legend>
+      <mat-radio-group [(ngModel)]="genreSelected" appearance="outline" formControlName="genre">
+        <mat-radio-button class="example-radio-button" *ngFor="let option of genreOptions" [value]="option">
+          <table>
+            <td>{{option}}&nbsp;&nbsp;</td>
+          </table>
+        </mat-radio-button>
+        <div *ngIf="movieForm.controls['genre']?.touched" [ngClass]="'errorClass'">
+          <p *ngIf="movieForm.controls['genre']?.errors?.['required']">Genre is required</p>
+        </div>
+      </mat-radio-group>
+    </fieldset>
+    <br />
+
+    {{enter}} the lead actor:
+    <mat-form-field [ngStyle]="{'margin-left': '21%'}" appearance="outline">
+      <mat-label>Lead Actor</mat-label>
+      <input type="text" matInput formControlName="leadActor">
+      <div *ngIf="movieForm.controls['leadActor']?.touched" [ngClass]="'errorClass'">
+        <p *ngIf="movieForm.controls['leadActor']?.errors?.['required']">Lead Actor is required</p>
+      </div>
+    </mat-form-field>
+    <br />
+
+    {{enter}} the lead actresss:
+    <mat-form-field [ngStyle]="{'margin-left': '18%'}" appearance="outline">
+      <mat-label>Lead Actress</mat-label>
+      <input type="text" matInput formControlName="leadActress">
+      <div *ngIf="movieForm.controls['leadActress']?.touched" [ngClass]="'errorClass'">
+        <p *ngIf="movieForm.controls['leadActress']?.errors?.['required']">Lead Actress is required</p>
+      </div>
+    </mat-form-field>
+    <br />
+
+    {{enter}} the director:
+    <mat-form-field [ngStyle]="{'margin-left': '24%'}" appearance="outline">
+      <mat-label>Director</mat-label>
+      <input type="text" matInput formControlName="director">
+      <div *ngIf="movieForm.controls['director']?.touched" [ngClass]="'errorClass'">
+        <p *ngIf="movieForm.controls['director']?.errors?.['required']">Director is required</p>
+      </div>
+    </mat-form-field>
+    <br />
+
+    {{enter}} the writer:
+    <mat-form-field [ngStyle]="{'margin-left': '26%'}" appearance="outline">
+      <mat-label>Writer</mat-label>
+      <input type="text" matInput formControlName="writer">
+      <div *ngIf="movieForm.controls['writer']?.touched" [ngClass]="'errorClass'">
+        <p *ngIf="movieForm.controls['writer']?.errors?.['required']">Writer is required</p>
+      </div>
+    </mat-form-field>
+    <br />
+
+    {{enter}} the production house:
+    <mat-form-field [ngStyle]="{'margin-left': '14%'}" appearance="outline">
+      <mat-label>Production House</mat-label>
+      <input type="text" matInput formControlName="productionHouse">
+      <div *ngIf="movieForm.controls['productionHouse']?.touched" [ngClass]="'errorClass'">
+        <p *ngIf="movieForm.controls['productionHouse']?.errors?.['required']">Production House is required</p>
+      </div>
+    </mat-form-field>
+    <br />
+
+    {{enter}} the composer:
+    <mat-form-field [ngStyle]="{'margin-left': '22%'}" appearance="outline">
+      <mat-label>Composer</mat-label>
+      <input type="text" matInput formControlName="composer">
+    </mat-form-field>
+    <br />
+
+    {{enter}} the distributor:
+    <mat-form-field [ngStyle]="{'margin-left': '22%'}" appearance="outline">
+      <mat-label>Distributor</mat-label>
+      <input type="text" matInput formControlName="distributor">
+    </mat-form-field>
+    <br />
+
+    {{enter}} the editor:
+    <mat-form-field [ngStyle]="{'margin-left': '27%'}" appearance="outline">
+      <mat-label>Editor</mat-label>
+      <input type="text" matInput formControlName="editor">
+    </mat-form-field>
+    <br />
+
+    {{enter}} budget:
+    <mat-form-field [ngStyle]="{'margin-left': '30%'}" appearance="outline">
+      <mat-label>Budget</mat-label>
+      <input type="number" matInput formControlName="budget">
+    </mat-form-field>
+    <br />
+
+    {{enter}} the lifetime collections:
+    <mat-form-field [ngStyle]="{'margin-left': '13%'}" appearance="outline">
+      <mat-label>Collections</mat-label>
+      <input type="number" matInput formControlName="collection">
+    </mat-form-field>
+    <br />
+
+    {{enter}} the ratings by critics:
+    <mat-form-field [ngStyle]="{'margin-left': '16%'}" appearance="outline">
+      <mat-label>Critics' Ratings</mat-label>
+      <input matInput matSliderThumb>
+      <mat-slider #criticValue min="1" max="5" step="0.1" formControlName="criticRatings">
+      </mat-slider>{{criticValue.value}}
+    </mat-form-field>
+    <br />
+
+    {{enter}} the certificate issued by CBFC:
+    <fieldset [ngClass]="'inner'">
+      <legend>Genre</legend>
+      <mat-radio-group [(ngModel)]="certificateSelected" appearance="outline" formControlName="cbfcCertificate">
+        <mat-radio-button class="example-radio-button" *ngFor="let option of certificateOptions" [value]="option">
+          <table>
+            <td>{{option}}&nbsp;&nbsp;</td>
+          </table>
+        </mat-radio-button>
+        <div *ngIf="movieForm.controls['cbfcCertificate']?.touched" [ngClass]="'errorClass'">
+          <p *ngIf="movieForm.controls['cbfcCertificate']?.errors?.['required']">CBFC Certificate is required</p>
+        </div>
+      </mat-radio-group>
+    </fieldset>
+    <br />
+
+    {{enter}} the number of awards won:
+    <mat-form-field [ngStyle]="{'margin-left': '10%'}" appearance="outline">
+      <mat-label>Award Count</mat-label>
+      <input type="number" matInput formControlName="awardCount">
+    </mat-form-field>
+    <br />
+
+    {{enter}} on which movie this is based on:
+    <mat-form-field [ngStyle]="{'margin-left': '5%'}" appearance="outline">
+      <mat-label>Basis</mat-label>
+      <input type="text" matInput formControlName="basis">
+    </mat-form-field>
+    <br />
+
+    {{enter}} the ratings by audience:
+    <mat-form-field [ngStyle]="{'margin-left': '15%'}" appearance="outline">
+      <mat-label>Audience Ratings</mat-label>
+      <input matInput>
+      <mat-slider #audienceValue min="1" max="5" step="0.1" formControlName="audienceRatings">
+      </mat-slider>{{audienceValue.value}}
+    </mat-form-field>
+    <br />
+
+    <button type="submit" *ngIf="roles.includes('manager')||roles.includes('admin')" mat-raised-button color="accent"
+      (click)="print()" [disabled]="!movieForm.valid">{{submit}}</button>
+  </form>
+</fieldset>
+<br>
+<button class="button right" color="primary" (click)="goBack()"><span>Back</span></button>
+

@@ -1,0 +1,209 @@
+2022-12-29 10:11:57,589 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2022-12-29 10:11:57,593 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieConfigServerApplication using Java 17.0.4.1 on Hariharan with PID 24964 (C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-config-server\target\classes started by HariharanB in C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-config-server)
+2022-12-29 10:11:57,593 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2022-12-29 10:11:57,597 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-29 10:11:58,397 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=b0364c9d-dae6-30be-a25d-44d65c7846e2
+2022-12-29 10:11:58,644 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8888 (http)
+2022-12-29 10:11:58,653 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8888"]
+2022-12-29 10:11:58,653 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-12-29 10:11:58,654 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-29 10:11:58,792 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-12-29 10:11:58,793 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1155 ms
+2022-12-29 10:11:59,371 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-12-29 10:11:59,911 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-29 10:11:59,961 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-12-29 10:11:59,994 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-12-29 10:11:59,999 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-12-29 10:12:00,023 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-12-29 10:12:00,024 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-12-29 10:12:00,024 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-12-29 10:12:00,024 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-12-29 10:12:00,024 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-12-29 10:12:00,024 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-12-29 10:12:00,024 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-12-29 10:12:00,256 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-12-29 10:12:00,258 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-12-29 10:12:00,261 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-12-29 10:12:00,265 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1672288920264 with initial instances count: 0
+2022-12-29 10:12:00,266 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MOVIE-CONFIG-SERVER with eureka with status UP
+2022-12-29 10:12:00,267 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1672288920267, current=UP, previous=STARTING]
+2022-12-29 10:12:00,268 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-CONFIG-SERVER/host.docker.internal:MOVIE-CONFIG-SERVER:8888: registering service...
+2022-12-29 10:12:00,268 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8888"]
+2022-12-29 10:12:00,295 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8888 (http) with context path ''
+2022-12-29 10:12:00,296 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8888
+2022-12-29 10:12:00,367 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-CONFIG-SERVER/host.docker.internal:MOVIE-CONFIG-SERVER:8888 - registration status: 204
+2022-12-29 10:12:00,441 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieConfigServerApplication in 3.502 seconds (JVM running for 4.188)
+2022-12-29 10:12:15,790 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8888-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-29 10:12:15,790 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8888-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-12-29 10:12:15,791 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8888-exec-1] Completed initialization in 1 ms
+2022-12-29 10:12:18,726 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-1] Adding property source: Config resource 'file [C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-6071625483756835291\MOVIE-GATEWAY.yml]' via location 'file:/C:/Users/HARIHA~1/AppData/Local/Temp/config-repo-6071625483756835291/'
+2022-12-29 10:12:30,264 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2022-12-29 10:12:30,266 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2022-12-29 10:12:30,267 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2022-12-29 10:12:30,268 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2022-12-29 10:12:30,269 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2022-12-29 10:12:30,270 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2022-12-29 10:12:30,270 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2022-12-29 10:12:30,282 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2022-12-29 10:12:48,772 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-2] Adding property source: Config resource 'file [C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-6071625483756835291\MOVIE-SERVICE.yml]' via location 'file:/C:/Users/HARIHA~1/AppData/Local/Temp/config-repo-6071625483756835291/'
+2022-12-29 10:17:00,027 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 10:22:00,043 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 10:27:00,053 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 10:32:00,054 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 10:37:00,065 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 10:42:00,065 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 10:47:00,073 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 10:52:00,079 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 10:57:00,082 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 11:02:00,092 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 11:05:38,623 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-5] Adding property source: Config resource 'file [C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-6071625483756835291\MOVIE-SERVICE.yml]' via location 'file:/C:/Users/HARIHA~1/AppData/Local/Temp/config-repo-6071625483756835291/'
+2022-12-29 11:06:48,678 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-7] Adding property source: Config resource 'file [C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-6071625483756835291\MOVIE-SERVICE.yml]' via location 'file:/C:/Users/HARIHA~1/AppData/Local/Temp/config-repo-6071625483756835291/'
+2022-12-29 11:07:00,107 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 11:12:00,121 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 11:17:00,133 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 11:22:00,144 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 11:27:00,158 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 11:32:00,164 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 11:37:00,173 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 11:42:00,176 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 11:47:00,178 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 11:52:00,187 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 11:57:00,191 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 12:02:00,192 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 12:07:00,194 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 12:12:00,197 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 12:17:00,199 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 12:22:00,201 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 12:27:00,202 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 12:32:00,206 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 12:37:00,208 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 12:37:41,819 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(155)-127.0.0.1] Application shutdown requested.
+2022-12-29 12:37:41,863 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(155)-127.0.0.1] Unregistering application MOVIE-CONFIG-SERVER with eureka with status DOWN
+2022-12-29 12:37:41,866 INFO com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(155)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1672297661866, current=DOWN, previous=UP]
+2022-12-29 12:37:41,867 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-CONFIG-SERVER/host.docker.internal:MOVIE-CONFIG-SERVER:8888: registering service...
+2022-12-29 12:37:41,939 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-CONFIG-SERVER/host.docker.internal:MOVIE-CONFIG-SERVER:8888 - registration status: 204
+2022-12-29 12:37:41,984 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(155)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8888"]
+2022-12-29 12:37:41,985 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(155)-127.0.0.1] Stopping service [Tomcat]
+2022-12-29 12:37:41,992 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(155)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-29 12:37:42,026 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(155)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8888"]
+2022-12-29 12:37:42,033 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(155)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8888"]
+2022-12-29 12:37:42,047 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(155)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-12-29 12:37:42,052 WARN org.springframework.cloud.config.server.support.AbstractScmAccessor$1 [Thread-3] Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-6071625483756835291\.git\objects\pack\pack-511e26a94d71ca3f2c058cec1cc9702b7a5156a8.idx
+2022-12-29 12:39:10,035 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieConfigServerApplication using Java 17.0.4.1 on Hariharan with PID 12360 (C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-config-server\target\classes started by HariharanB in C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-config-server)
+2022-12-29 12:39:10,038 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2022-12-29 12:39:10,039 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-29 12:39:10,041 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2022-12-29 12:39:10,947 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=b0364c9d-dae6-30be-a25d-44d65c7846e2
+2022-12-29 12:39:11,208 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8888 (http)
+2022-12-29 12:39:11,216 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8888"]
+2022-12-29 12:39:11,216 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-12-29 12:39:11,217 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-29 12:39:11,357 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-12-29 12:39:11,357 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1270 ms
+2022-12-29 12:39:11,964 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-12-29 12:39:12,633 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-29 12:39:12,786 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-12-29 12:39:12,859 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-12-29 12:39:12,871 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-12-29 12:39:12,918 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-12-29 12:39:12,919 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-12-29 12:39:12,919 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-12-29 12:39:12,920 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-12-29 12:39:12,921 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-12-29 12:39:12,921 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-12-29 12:39:12,922 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-12-29 12:39:13,390 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-12-29 12:39:13,393 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-12-29 12:39:13,398 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-12-29 12:39:13,407 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1672297753405 with initial instances count: 0
+2022-12-29 12:39:13,409 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MOVIE-CONFIG-SERVER with eureka with status UP
+2022-12-29 12:39:13,410 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1672297753410, current=UP, previous=STARTING]
+2022-12-29 12:39:13,412 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-CONFIG-SERVER/host.docker.internal:MOVIE-CONFIG-SERVER:8888: registering service...
+2022-12-29 12:39:13,414 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8888"]
+2022-12-29 12:39:13,449 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8888 (http) with context path ''
+2022-12-29 12:39:13,450 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8888
+2022-12-29 12:39:13,538 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-CONFIG-SERVER/host.docker.internal:MOVIE-CONFIG-SERVER:8888 - registration status: 204
+2022-12-29 12:39:13,625 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieConfigServerApplication in 4.325 seconds (JVM running for 5.142)
+2022-12-29 12:39:15,649 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8888-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-29 12:39:15,650 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8888-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-12-29 12:39:15,651 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8888-exec-2] Completed initialization in 1 ms
+2022-12-29 12:39:18,713 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-2] Adding property source: Config resource 'file [C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-2217758084946530662\MOVIE-SERVICE.yml]' via location 'file:/C:/Users/HARIHA~1/AppData/Local/Temp/config-repo-2217758084946530662/'
+2022-12-29 12:39:20,278 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-1] Adding property source: Config resource 'file [C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-2217758084946530662\MOVIE-GATEWAY.yml]' via location 'file:/C:/Users/HARIHA~1/AppData/Local/Temp/config-repo-2217758084946530662/'
+2022-12-29 12:39:43,396 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2022-12-29 12:39:43,396 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2022-12-29 12:39:43,396 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2022-12-29 12:39:43,396 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2022-12-29 12:39:43,397 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2022-12-29 12:39:43,397 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2022-12-29 12:39:43,397 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2022-12-29 12:39:43,409 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2022-12-29 12:44:12,925 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 12:49:12,928 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 12:52:17,515 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-6] Adding property source: Config resource 'file [C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-2217758084946530662\MOVIE-SERVICE.yml]' via location 'file:/C:/Users/HARIHA~1/AppData/Local/Temp/config-repo-2217758084946530662/'
+2022-12-29 12:53:34,980 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-8] Adding property source: Config resource 'file [C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-2217758084946530662\MOVIE-SERVICE.yml]' via location 'file:/C:/Users/HARIHA~1/AppData/Local/Temp/config-repo-2217758084946530662/'
+2022-12-29 12:54:12,933 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 12:56:01,626 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-7] Adding property source: Config resource 'file [C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-2217758084946530662\MOVIE-SERVICE.yml]' via location 'file:/C:/Users/HARIHA~1/AppData/Local/Temp/config-repo-2217758084946530662/'
+2022-12-29 12:59:09,767 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-2] Adding property source: Config resource 'file [C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-2217758084946530662\MOVIE-SERVICE.yml]' via location 'file:/C:/Users/HARIHA~1/AppData/Local/Temp/config-repo-2217758084946530662/'
+2022-12-29 12:59:12,942 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 13:04:12,947 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 13:04:26,763 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-3] Adding property source: Config resource 'file [C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-2217758084946530662\MOVIE-SERVICE.yml]' via location 'file:/C:/Users/HARIHA~1/AppData/Local/Temp/config-repo-2217758084946530662/'
+2022-12-29 13:09:12,952 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 13:14:12,959 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 13:17:06,434 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-6] Adding property source: Config resource 'file [C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-2217758084946530662\MOVIE-SERVICE.yml]' via location 'file:/C:/Users/HARIHA~1/AppData/Local/Temp/config-repo-2217758084946530662/'
+2022-12-29 13:19:12,976 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 13:19:26,921 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-8] Adding property source: Config resource 'file [C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-2217758084946530662\MOVIE-SERVICE.yml]' via location 'file:/C:/Users/HARIHA~1/AppData/Local/Temp/config-repo-2217758084946530662/'
+2022-12-29 13:24:12,985 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 13:29:13,000 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 13:34:13,006 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 13:38:21,396 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-7] Adding property source: Config resource 'file [C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-2217758084946530662\MOVIE-SERVICE.yml]' via location 'file:/C:/Users/HARIHA~1/AppData/Local/Temp/config-repo-2217758084946530662/'
+2022-12-29 13:39:13,024 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 13:44:13,028 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 13:49:13,033 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 13:49:35,600 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-2] Adding property source: Config resource 'file [C:\Users\HARIHA~1\AppData\Local\Temp\config-repo-2217758084946530662\MOVIE-SERVICE.yml]' via location 'file:/C:/Users/HARIHA~1/AppData/Local/Temp/config-repo-2217758084946530662/'
+2022-12-29 13:54:13,038 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 13:59:13,041 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 14:04:13,055 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 14:09:13,070 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 14:14:13,075 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 14:19:13,087 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 14:24:13,091 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 14:29:13,098 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 14:34:13,108 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 14:39:13,118 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 14:44:13,126 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 14:49:13,129 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 14:54:13,143 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 14:59:13,146 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 15:04:13,155 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 15:09:13,165 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 15:14:13,169 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 15:19:13,177 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 15:24:13,181 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 15:29:13,187 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 15:34:13,204 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 15:39:13,211 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 15:44:13,227 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 15:49:13,234 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 15:54:13,249 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 15:59:13,259 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 16:04:13,268 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 16:09:13,270 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 21:18:18,754 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 21:23:18,760 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 21:28:18,768 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 21:33:18,775 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 21:38:18,790 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 21:43:18,810 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 22:57:05,058 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 23:02:05,061 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 23:07:05,074 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 23:12:05,089 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 23:17:05,095 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 23:22:05,103 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 23:27:05,111 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 23:32:05,117 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 23:37:05,121 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 23:42:05,132 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 23:47:05,139 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 23:52:05,152 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-12-29 23:57:05,161 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration

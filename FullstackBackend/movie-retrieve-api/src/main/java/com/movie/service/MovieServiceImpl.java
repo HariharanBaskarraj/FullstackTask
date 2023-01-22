@@ -1,0 +1,165 @@
+/**
+ * 
+ */
+package com.movie.service;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+import com.movie.model.Movie;
+import com.movie.util.Queries;
+import com.orientechnologies.orient.core.db.ODatabaseSession;
+import com.orientechnologies.orient.core.db.OrientDB;
+import com.orientechnologies.orient.core.sql.executor.OResult;
+
+/**
+ * This class is the service implementation and contains methods that need to be
+ * executed for the CRUD operations.
+ * 
+ * @author HariharanB
+ */
+@Service
+public class MovieServiceImpl implements IMovieService {
+
+	@Value("${database.dbname}")
+	private String databaseName;
+	@Value("${database.username}")
+	private String username;
+	@Value("${database.password}")
+	private String password;
+	
+	private OrientDB orientDatabase;
+	private static Logger logger = LoggerFactory.getLogger(MovieServiceImpl.class);
+
+	@Autowired
+	public void setOrientDatabase(OrientDB orientDatabase) {
+		this.orientDatabase = orientDatabase;
+	}
+
+
+	/**
+	 * This method is used to retrieve all the movie records from the database.
+	 * 
+	 * @author HariharanB 
+	 */
+	@Override
+	public List<Movie> getAll() {
+		logger.info("Connecting to the database"+databaseName);
+		ODatabaseSession orientSession = orientDatabase.open(databaseName, username,password);
+		logger.info(databaseName+"connected");
+		logger.info("executing query");
+		List<OResult> movieRecords = orientSession.command(Queries.SELECT_QUERY).stream().collect(Collectors.toList());
+		Iterator<OResult> itr = movieRecords.iterator();
+		Movie movie = null;
+		List<Movie> movies = new ArrayList<>();
+		logger.info("storing the resultset in a list");
+		while (itr.hasNext()) {
+			OResult movieData = itr.next();
+			movie = new Movie(movieData.getProperty("movie_id"), movieData.getProperty("movie_name"),
+					movieData.getProperty("synopsis"), movieData.getProperty("release_date"),
+					movieData.getProperty("runtime"), movieData.getProperty("genre"),
+					movieData.getProperty("lead_actor"), movieData.getProperty("lead_actress"),
+					movieData.getProperty("director"), movieData.getProperty("writer"),
+					movieData.getProperty("production_house"), movieData.getProperty("composer"),
+					movieData.getProperty("distributor"), movieData.getProperty("editor"),
+					movieData.getProperty("budget"), movieData.getProperty("collection"),
+					movieData.getProperty("critic_ratings"), movieData.getProperty("cbfc_certificate"),
+					movieData.getProperty("award_count"), movieData.getProperty("basis"),
+					movieData.getProperty("audience_ratings"));
+			movies.add(movie);
+		}
+		return movies;
+
+	}
+
+	/**
+	 * This method is used to retrieve a movie record with matching movie ID.
+	 * 
+	 * @param movieId The unique ID of the movie to fetch
+	 * @author HariharanB
+	 */
+	@Override
+	public Optional<Movie> getById(int movieId) {
+		logger.info("getting movie by id");
+		return getAll().stream().filter(movie -> movie.getMovieId() == movieId).findFirst();
+	}
+
+	/**
+	 * This method is used to page the data that are retrieved from the database.
+	 * @param page the number of the page
+	 * @param pageSize number of records per page
+	 */
+	@Override
+	public List<Movie> getPage(int page, int pageSize) {
+		logger.info("Performing Paging");
+		int startingIndex = (page - 1) * pageSize;
+		return getAll().subList(startingIndex, Math.min(startingIndex + pageSize, getAll().size()));
+	}
+
+	/**
+	 * This method is used to sort the retrieved movie records as per the column name and increasing/decreasing order.
+	 * 
+	 * @param columnName The column that needs to be sorted
+	 * @param order Ascending or Descending Order
+	 */
+	@Override
+	public List<Movie> sort(String columnName, String order) {
+		logger.info("Connecting to the database"+databaseName);
+		ODatabaseSession orientSession = orientDatabase.open(databaseName, username,password);
+		logger.info(databaseName+"connected");
+		logger.info("executing query");
+		List<OResult> movieRecords = orientSession.command(Queries.SORT_QUERY.concat(columnName + " " + order + ";"))
+				.stream().collect(Collectors.toList());
+
+		List<Movie> movies = iterate(movieRecords);
+		movies.forEach(System.out::println);
+		return movies;
+	}
+	
+	/**
+	 * This method is used to sort the retrieved movie records as per the column name and increasing/decreasing order.
+	 * 
+	 * @param movieRecords
+	 * @return A list of movie objects
+	 */
+	public static List<Movie> iterate(List<OResult> movieRecords) {
+		Iterator<OResult> itr = movieRecords.iterator();
+		Movie movie = null;
+		List<Movie> movies = new ArrayList<>();
+		logger.info("Iterating through the records");
+		while (itr.hasNext()) {
+			OResult movieData = itr.next();
+			movie = new Movie(movieData.getProperty("movie_id"), movieData.getProperty("movie_name"),
+					movieData.getProperty("synopsis"), movieData.getProperty("release_date"),
+					movieData.getProperty("runtime"), movieData.getProperty("genre"),
+					movieData.getProperty("lead_actor"), movieData.getProperty("lead_actress"),
+					movieData.getProperty("director"), movieData.getProperty("writer"),
+					movieData.getProperty("production_house"), movieData.getProperty("composer"),
+					movieData.getProperty("distributor"), movieData.getProperty("editor"),
+					movieData.getProperty("budget"), movieData.getProperty("collection"),
+					movieData.getProperty("critic_ratings"), movieData.getProperty("cbfc_certificate"),
+					movieData.getProperty("award_count"), movieData.getProperty("basis"),
+					movieData.getProperty("audience_ratings"));
+			movies.add(movie);
+		}
+		logger.info("Returning the list of movie records");
+		return movies;
+
+	}
+
+	public List<Movie> sortAndPage(String columnName, String order,int page, int pageSize) {
+		List<Movie> sorted = sort(columnName,order);
+		int startingIndex = (page - 1) * pageSize;
+		return sorted.subList(startingIndex, Math.min(startingIndex + pageSize, sorted.size()));
+		
+	}
+}

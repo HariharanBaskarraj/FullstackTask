@@ -1,0 +1,10 @@
+spring:
+  config:
+    import: configserver:http://${host}:${port}
+    
+  application:
+    name: MOVIE-SERVICE
+    
+
+
+    

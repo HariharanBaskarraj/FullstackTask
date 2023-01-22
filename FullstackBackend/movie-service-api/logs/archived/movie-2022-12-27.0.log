@@ -1,0 +1,51 @@
+2022-12-27 23:23:51,436 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieCrudApiApplication using Java 17.0.4.1 on Hariharan with PID 17208 (C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-crud-api\target\classes started by HariharanB in C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-crud-api)
+2022-12-27 23:23:51,439 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2022-12-27 23:23:51,440 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-27 23:23:51,477 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2022-12-27 23:23:51,478 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=MOVIE-SERVICE, profiles=[default], label=null, version=f39934bd53c81fb9392592459862ebd6355ba5ff, state=null
+2022-12-27 23:23:52,256 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=415c7d2d-cd6a-30c5-a6b2-41185211837d
+2022-12-27 23:23:52,566 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-12-27 23:23:52,577 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-12-27 23:23:52,578 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-12-27 23:23:52,579 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-27 23:23:52,729 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-12-27 23:23:52,729 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1249 ms
+2022-12-27 23:23:53,722 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-12-27 23:23:53,777 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-27 23:23:53,781 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-27 23:23:53,846 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-12-27 23:23:53,895 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-12-27 23:23:53,901 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-12-27 23:23:53,929 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-12-27 23:23:53,929 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-12-27 23:23:53,930 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-12-27 23:23:53,930 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-12-27 23:23:53,930 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-12-27 23:23:53,930 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-12-27 23:23:53,930 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-12-27 23:23:54,196 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-12-27 23:23:54,198 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-12-27 23:23:54,201 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-12-27 23:23:54,205 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1672163634205 with initial instances count: 2
+2022-12-27 23:23:54,206 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MOVIE-SERVICE with eureka with status UP
+2022-12-27 23:23:54,207 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1672163634207, current=UP, previous=STARTING]
+2022-12-27 23:23:54,209 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/Hariharan:MOVIE-SERVICE:8082: registering service...
+2022-12-27 23:23:54,209 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-12-27 23:23:54,235 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-27 23:23:54,235 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8082
+2022-12-27 23:23:54,270 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/Hariharan:MOVIE-SERVICE:8082 - registration status: 204
+2022-12-27 23:23:54,424 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieCrudApiApplication in 5.505 seconds (JVM running for 6.269)
+2022-12-27 23:23:55,747 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-27 23:23:55,748 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-12-27 23:23:55,749 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Completed initialization in 1 ms
+2022-12-27 23:24:06,984 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(8)-127.0.0.1] Application shutdown requested.
+2022-12-27 23:24:06,985 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(8)-127.0.0.1] Unregistering application MOVIE-SERVICE with eureka with status DOWN
+2022-12-27 23:24:06,985 INFO com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(8)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1672163646985, current=DOWN, previous=UP]
+2022-12-27 23:24:06,986 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/Hariharan:MOVIE-SERVICE:8082: registering service...
+2022-12-27 23:24:06,994 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/Hariharan:MOVIE-SERVICE:8082 - registration status: 204
+2022-12-27 23:24:06,999 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(8)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8082"]
+2022-12-27 23:24:07,000 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(8)-127.0.0.1] Stopping service [Tomcat]
+2022-12-27 23:24:07,001 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(8)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-27 23:24:07,006 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(8)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8082"]
+2022-12-27 23:24:07,007 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(8)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8082"]
+2022-12-27 23:24:07,013 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(8)-127.0.0.1] Shutting down DiscoveryClient ...

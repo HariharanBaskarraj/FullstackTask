@@ -1,0 +1,67 @@
+version: "3"
+services:
+  eureka-registry:
+    image: hariharanbaskarraj/samplerepo:eureka-registry
+    environment:
+      - hostname=localhost
+      - server.port=8761
+    ports:
+      - "8761:8761"
+    build:
+      context: .
+      
+  config-server: 
+    image: hariharanbaskarraj/samplerepo:config-server
+    environment:
+      - server.port=8888
+    ports:
+      - "8888:8888"
+    build:
+      context: . 
+       
+  gateway:
+    image: hariharanbaskarraj/samplerepo:gateway-api
+    environment:
+      - confighost=localhost
+      - configport=8888
+    ports:
+      - "9000:9000"
+    links:
+      - config-server 
+    build:
+      context: .
+     
+      
+  movie-service:
+    image: hariharanbaskarraj/samplerepo:movie-service
+    environment:
+      - host=localhost
+      - port=8888
+    ports:
+      - "8081:8081"
+    links:
+      - config-server 
+      -  eureka-registry
+    build:
+      context: . 
+      
+  movie-retrieve:
+    image: hariharanbaskarraj/samplerepo:movie-retrieve
+    environment:
+      - host=localhost
+      - port=8888
+    links:
+      - config-server 
+      -  eureka-registry
+    ports:
+      - "8082:8082"
+    build:
+      context: . 
+         
+  orient: 
+    image: orientdb:3.2.13
+    ports:
+      - "2480:2480"
+    environment:
+      - ORIENTDB_ROOT_PASSWORD=root
+      - ORIENTDB_DATABASE=MovieTrial

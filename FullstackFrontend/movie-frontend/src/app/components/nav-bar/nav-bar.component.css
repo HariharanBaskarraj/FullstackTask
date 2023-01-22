@@ -1,0 +1,22 @@
+.profile{
+    left: 75%;
+};
+
+@media screen and (min-width:769px)and (max-width:1024px){
+    .profile{
+        left: 75%;
+    };
+}
+
+@media screen and (min-width:0px)and (max-width:768px){
+    .profile{
+        left: 58%;
+    };
+}
+
+
+@media screen and (max-width:480px){
+    .profile{
+        left: 46%;
+    };
+}

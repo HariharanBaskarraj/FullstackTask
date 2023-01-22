@@ -1,0 +1,6 @@
+spring:
+  config:
+    import: configserver:http://${confighost}:${configport}
+    
+  application:
+    name: MOVIE-GATEWAY

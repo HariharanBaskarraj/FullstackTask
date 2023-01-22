@@ -1,0 +1,40 @@
+<mat-form-field class="sortField" appearance="outline">
+    <mat-select matInput #sortValue>
+        <mat-option *ngFor="let column of sort_options" value="{{ column }}">{{
+            column
+            }}</mat-option>
+    </mat-select>
+    <mat-label>Select column to sort</mat-label>
+</mat-form-field>
+<mat-icon [ngClass]="'sort'" (click)="sortMovie(sortValue.value)">sort</mat-icon>
+<div [ngStyle]="{'width':'100%'}" fxLayout="row wrap" fxLayoutAlign="start start" fxLayoutGap="32px grid">
+    <ng-container *ngFor="let movie of movies">
+        <div fxFlex="25">
+            <mat-card (click)="route(movie.movieId)">
+                <mat-card-header>
+                    <mat-card-title> {{movie.movieName}}</mat-card-title>
+                    <mat-card-subtitle><span [ngClass]="['card-title', 'synopsis']">Release:
+                            {{movie.releaseDate|date:'mediumDate'}}</span></mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content><span [ngClass]="['card-title', 'image']"><img src="../../../assets/images/{{movie.movieId}}.jpg" width="220px" height="275px"></span></mat-card-content>
+                <mat-card-content><span [ngClass]="['card-title', 'runtime']">Runtime: </span>{{ movie.runtime }}
+                    minutes</mat-card-content>
+                <mat-card-content><span [ngClass]="['card-title', 'leadActor']">Lead Actor: </span>{{
+                    movie.leadActor }}</mat-card-content>
+                <mat-card-content><span [ngClass]="['card-title', 'leadActress']">Lead Actress: </span>{{
+                    movie.leadActress }}</mat-card-content>
+                <mat-card-content><span [ngClass]="['card-title', 'director']">Director: </span>{{ movie.director
+                    }}</mat-card-content>
+                <mat-card-content><span [ngClass]="['card-title', 'cbfcCertificate']">CBFC Certificate: </span>{{
+                    movie.cbfcCertificate }}</mat-card-content>
+                <mat-card-content><span [ngClass]="['card-title', 'criticRatings']">Critic Ratings: </span>{{
+                    movie.criticRatings }}</mat-card-content>
+            </mat-card>
+        </div>
+    </ng-container>
+</div>
+<div>
+    <mat-paginator [length]="count()" [pageSize]="12" [pageSizeOptions]="[1, 5, 10, 25]" aria-label="Select page"
+        (page)="pagination($event)">
+    </mat-paginator>
+</div>

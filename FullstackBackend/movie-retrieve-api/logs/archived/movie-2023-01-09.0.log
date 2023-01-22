@@ -1,0 +1,756 @@
+2023-01-09 09:45:36,291 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieRetrieveApiApplication using Java 17.0.4.1 on Hariharan with PID 5972 (C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-retrieve-api\target\classes started by HariharanB in C:\Users\HariharanB\FullstackTask\FullstackBackend\movie-retrieve-api)
+2023-01-09 09:45:36,294 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2023-01-09 09:45:36,295 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-09 09:45:36,338 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2023-01-09 09:45:36,338 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=MOVIE-RETRIEVE, profiles=[default], label=null, version=859c16c98cdc5dea4ed03fb37a9541c751f918d5, state=null
+2023-01-09 09:45:37,031 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=4eabe816-0731-35ba-bfe2-815b53c2b351
+2023-01-09 09:45:37,328 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-01-09 09:45:37,337 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-01-09 09:45:37,337 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-01-09 09:45:37,337 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-09 09:45:37,487 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-01-09 09:45:37,487 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1146 ms
+2023-01-09 09:45:37,632 INFO com.orientechnologies.common.log.OLogManager [main] Windows OS is detected, 262144 limit of open files will be set for the disk cache.
+2023-01-09 09:45:37,969 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7530090a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4492b393, org.springframework.security.web.context.SecurityContextPersistenceFilter@56da96b3, org.springframework.security.web.header.HeaderWriterFilter@2cbe455c, org.springframework.web.filter.CorsFilter@55fb36de, org.springframework.security.web.csrf.CsrfFilter@7ad889be, org.springframework.security.web.authentication.logout.LogoutFilter@2120bed, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@38d525aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e37fb82, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59ec7020, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63a7781, org.springframework.security.web.session.SessionManagementFilter@4d0e1a9a, org.springframework.security.web.access.ExceptionTranslationFilter@2fba0dac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@42cc5460]
+2023-01-09 09:45:38,607 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-01-09 09:45:38,951 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-09 09:45:39,028 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-01-09 09:45:39,079 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-01-09 09:45:39,088 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2023-01-09 09:45:39,117 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2023-01-09 09:45:39,117 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2023-01-09 09:45:39,117 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2023-01-09 09:45:39,117 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2023-01-09 09:45:39,117 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2023-01-09 09:45:39,118 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2023-01-09 09:45:39,118 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2023-01-09 09:45:39,386 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2023-01-09 09:45:39,388 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2023-01-09 09:45:39,391 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-01-09 09:45:39,396 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1673237739396 with initial instances count: 0
+2023-01-09 09:45:39,399 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MOVIE-RETRIEVE with eureka with status UP
+2023-01-09 09:45:39,399 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1673237739399, current=UP, previous=STARTING]
+2023-01-09 09:45:39,401 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082: registering service...
+2023-01-09 09:45:39,401 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-01-09 09:45:39,424 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-01-09 09:45:39,424 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8082
+2023-01-09 09:45:39,438 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082 - registration status: 204
+2023-01-09 09:45:39,658 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieRetrieveApiApplication in 6.986 seconds (JVM running for 7.749)
+2023-01-09 09:46:09,402 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2023-01-09 09:46:09,403 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2023-01-09 09:46:09,403 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2023-01-09 09:46:09,403 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2023-01-09 09:46:09,404 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2023-01-09 09:46:09,404 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2023-01-09 09:46:09,404 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2023-01-09 09:46:09,418 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2023-01-09 09:46:17,587 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-09 09:46:17,587 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-09 09:46:17,588 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-1] Completed initialization in 1 ms
+2023-01-09 09:46:17,791 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Retrieving
+2023-01-09 09:46:17,791 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-09 09:46:18,321 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-09 09:46:18,321 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-09 09:46:18,355 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-09 09:47:16,972 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Retrieving
+2023-01-09 09:47:16,973 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-09 09:47:16,978 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-09 09:47:16,979 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-09 09:47:16,984 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-09 09:47:20,164 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Get by ID
+2023-01-09 09:47:20,164 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] getting movie by id
+2023-01-09 09:47:20,164 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-09 09:47:20,168 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-09 09:47:20,168 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-09 09:47:20,174 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] storing the resultset in a list
+2023-01-09 09:47:22,808 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Get by ID
+2023-01-09 09:47:22,808 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] getting movie by id
+2023-01-09 09:47:22,808 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-09 09:47:22,813 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-09 09:47:22,814 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-09 09:47:22,821 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-09 09:47:33,224 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Retrieving
+2023-01-09 09:47:33,224 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-09 09:47:33,227 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-09 09:47:33,227 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-09 09:47:33,231 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-09 09:47:37,147 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Get by ID
+2023-01-09 09:47:37,147 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] getting movie by id
+2023-01-09 09:47:37,148 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-09 09:47:37,150 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-09 09:47:37,150 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-09 09:47:37,155 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-09 09:47:51,071 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Retrieving
+2023-01-09 09:47:51,072 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-09 09:47:51,075 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-09 09:47:51,076 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-09 09:47:51,081 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-09 09:47:53,643 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Retrieving
+2023-01-09 09:47:53,643 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-09 09:47:53,649 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-09 09:47:53,650 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-09 09:47:53,656 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-09 09:47:54,796 INFO com.movie.controllers.MovieController [http-nio-8082-exec-9] In Controller, Get by ID
+2023-01-09 09:47:54,797 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] getting movie by id
+2023-01-09 09:47:54,798 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-09 09:47:54,801 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-09 09:47:54,801 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-09 09:47:54,805 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-09 09:48:00,509 INFO com.movie.controllers.MovieController [http-nio-8082-exec-10] In Controller, Retrieving
+2023-01-09 09:48:00,510 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-09 09:48:00,517 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-09 09:48:00,518 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-09 09:48:00,523 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-09 09:48:32,786 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Sorting
+2023-01-09 09:48:32,786 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-09 09:48:32,790 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-09 09:48:32,790 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-09 09:48:32,796 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Iterating through the records
+2023-01-09 09:48:32,797 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Returning the list of movie records
+2023-01-09 09:48:40,357 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Sorting
+2023-01-09 09:48:40,357 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-09 09:48:40,361 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-09 09:48:40,362 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-09 09:48:40,365 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Iterating through the records
+2023-01-09 09:48:40,365 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Returning the list of movie records
+2023-01-09 09:49:20,581 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Get by ID
+2023-01-09 09:49:20,582 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] getting movie by id
+2023-01-09 09:49:20,582 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-09 09:49:20,585 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-09 09:49:20,585 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-09 09:49:20,588 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] storing the resultset in a list
+2023-01-09 09:49:23,395 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Retrieving
+2023-01-09 09:49:23,396 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-09 09:49:23,398 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-09 09:49:23,399 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-09 09:49:23,401 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-09 09:50:39,128 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 09:50:45,540 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Sorting
+2023-01-09 09:50:45,541 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-09 09:50:45,544 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-09 09:50:45,544 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-09 09:50:45,547 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Iterating through the records
+2023-01-09 09:50:45,548 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Returning the list of movie records
+2023-01-09 09:50:55,657 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Sorting
+2023-01-09 09:50:55,657 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-09 09:50:55,661 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-09 09:50:55,662 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-09 09:50:55,666 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Iterating through the records
+2023-01-09 09:50:55,667 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Returning the list of movie records
+2023-01-09 09:50:56,087 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Sorting
+2023-01-09 09:50:56,088 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-09 09:50:56,091 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-09 09:50:56,091 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-09 09:50:56,096 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Iterating through the records
+2023-01-09 09:50:56,096 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Returning the list of movie records
+2023-01-09 09:55:39,132 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 10:00:39,134 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 10:02:43,885 INFO com.movie.controllers.MovieController [http-nio-8082-exec-10] In Controller, Retrieving
+2023-01-09 10:02:43,886 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-09 10:02:43,891 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-09 10:02:43,892 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-09 10:02:43,895 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-09 10:03:15,901 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Sorting
+2023-01-09 10:03:15,902 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-09 10:03:15,905 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-09 10:03:15,905 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-09 10:03:15,911 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Iterating through the records
+2023-01-09 10:03:15,912 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Returning the list of movie records
+2023-01-09 10:03:30,681 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Sorting
+2023-01-09 10:03:30,681 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-09 10:03:30,684 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-09 10:03:30,685 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-09 10:03:30,689 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Iterating through the records
+2023-01-09 10:03:30,689 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Returning the list of movie records
+2023-01-09 10:03:55,859 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Sorting
+2023-01-09 10:03:55,860 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-09 10:03:55,863 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-09 10:03:55,863 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-09 10:03:55,866 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Iterating through the records
+2023-01-09 10:03:55,867 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Returning the list of movie records
+2023-01-09 10:03:56,544 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Sorting
+2023-01-09 10:03:56,544 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-09 10:03:56,547 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-09 10:03:56,547 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-09 10:03:56,550 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Iterating through the records
+2023-01-09 10:03:56,550 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Returning the list of movie records
+2023-01-09 10:03:56,917 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Sorting
+2023-01-09 10:03:56,918 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-09 10:03:56,921 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-09 10:03:56,921 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-09 10:03:56,925 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Iterating through the records
+2023-01-09 10:03:56,925 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Returning the list of movie records
+2023-01-09 10:04:10,284 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Paging
+2023-01-09 10:04:10,284 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Performing Paging
+2023-01-09 10:04:10,285 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-09 10:04:10,288 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-09 10:04:10,288 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-09 10:04:10,290 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-09 10:04:10,291 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-09 10:04:10,296 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-09 10:04:10,297 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-09 10:04:10,299 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-09 10:04:14,918 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Paging
+2023-01-09 10:04:14,918 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Performing Paging
+2023-01-09 10:04:14,919 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-09 10:04:14,922 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-09 10:04:14,923 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-09 10:04:14,927 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-09 10:04:14,927 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-09 10:04:14,930 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-09 10:04:14,931 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-09 10:04:14,933 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-09 10:04:17,060 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Paging
+2023-01-09 10:04:17,060 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Performing Paging
+2023-01-09 10:04:17,061 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-09 10:04:17,063 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-09 10:04:17,065 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-09 10:04:17,068 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-09 10:04:17,068 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-09 10:04:17,070 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-09 10:04:17,070 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-09 10:04:17,073 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-09 10:04:21,663 INFO com.movie.controllers.MovieController [http-nio-8082-exec-9] In Controller, Paging
+2023-01-09 10:04:21,664 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Performing Paging
+2023-01-09 10:04:21,664 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-09 10:04:21,666 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-09 10:04:21,666 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-09 10:04:21,668 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-09 10:04:21,669 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-09 10:04:21,671 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-09 10:04:21,672 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-09 10:04:21,675 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-09 10:04:22,753 INFO com.movie.controllers.MovieController [http-nio-8082-exec-10] In Controller, Paging
+2023-01-09 10:04:22,754 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Performing Paging
+2023-01-09 10:04:22,755 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-09 10:04:22,759 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-09 10:04:22,759 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-09 10:04:22,762 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-09 10:04:22,763 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-09 10:04:22,765 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-09 10:04:22,765 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-09 10:04:22,768 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-09 10:05:39,137 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 10:05:59,278 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Get by ID
+2023-01-09 10:05:59,279 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] getting movie by id
+2023-01-09 10:05:59,279 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-09 10:05:59,282 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-09 10:05:59,282 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-09 10:05:59,285 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-09 10:06:47,591 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Retrieving
+2023-01-09 10:06:47,592 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-09 10:06:47,595 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-09 10:06:47,595 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-09 10:06:47,598 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] storing the resultset in a list
+2023-01-09 10:08:22,645 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Retrieving
+2023-01-09 10:08:22,646 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-09 10:08:22,648 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-09 10:08:22,648 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-09 10:08:22,650 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-09 10:08:57,601 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Get by ID
+2023-01-09 10:08:57,602 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] getting movie by id
+2023-01-09 10:08:57,602 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-09 10:08:57,605 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-09 10:08:57,605 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-09 10:08:57,607 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-09 10:09:01,597 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Get by ID
+2023-01-09 10:09:01,598 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] getting movie by id
+2023-01-09 10:09:01,598 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-09 10:09:01,602 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-09 10:09:01,603 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-09 10:09:01,606 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-09 10:09:27,852 INFO com.movie.controllers.MovieController [http-nio-8082-exec-8] In Controller, Retrieving
+2023-01-09 10:09:27,852 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] Connecting to the databaseMovieDB
+2023-01-09 10:09:27,854 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] MovieDBconnected
+2023-01-09 10:09:27,854 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] executing query
+2023-01-09 10:09:27,856 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-8] storing the resultset in a list
+2023-01-09 10:09:40,936 INFO com.movie.controllers.MovieController [http-nio-8082-exec-9] In Controller, Get by ID
+2023-01-09 10:09:40,936 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] getting movie by id
+2023-01-09 10:09:40,936 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] Connecting to the databaseMovieDB
+2023-01-09 10:09:40,939 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] MovieDBconnected
+2023-01-09 10:09:40,940 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] executing query
+2023-01-09 10:09:40,942 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-9] storing the resultset in a list
+2023-01-09 10:09:56,309 INFO com.movie.controllers.MovieController [http-nio-8082-exec-10] In Controller, Retrieving
+2023-01-09 10:09:56,310 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] Connecting to the databaseMovieDB
+2023-01-09 10:09:56,312 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] MovieDBconnected
+2023-01-09 10:09:56,312 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] executing query
+2023-01-09 10:09:56,314 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-10] storing the resultset in a list
+2023-01-09 10:10:09,579 INFO com.movie.controllers.MovieController [http-nio-8082-exec-1] In Controller, Get by ID
+2023-01-09 10:10:09,579 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] getting movie by id
+2023-01-09 10:10:09,580 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] Connecting to the databaseMovieDB
+2023-01-09 10:10:09,584 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] MovieDBconnected
+2023-01-09 10:10:09,584 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] executing query
+2023-01-09 10:10:09,586 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-1] storing the resultset in a list
+2023-01-09 10:10:12,923 INFO com.movie.controllers.MovieController [http-nio-8082-exec-2] In Controller, Retrieving
+2023-01-09 10:10:12,923 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] Connecting to the databaseMovieDB
+2023-01-09 10:10:12,925 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] MovieDBconnected
+2023-01-09 10:10:12,926 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] executing query
+2023-01-09 10:10:12,927 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-2] storing the resultset in a list
+2023-01-09 10:10:38,031 INFO com.movie.controllers.MovieController [http-nio-8082-exec-3] In Controller, Retrieving
+2023-01-09 10:10:38,032 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] Connecting to the databaseMovieDB
+2023-01-09 10:10:38,036 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] MovieDBconnected
+2023-01-09 10:10:38,036 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] executing query
+2023-01-09 10:10:38,040 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-3] storing the resultset in a list
+2023-01-09 10:10:39,150 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 10:10:49,367 INFO com.movie.controllers.MovieController [http-nio-8082-exec-4] In Controller, Get by ID
+2023-01-09 10:10:49,368 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] getting movie by id
+2023-01-09 10:10:49,368 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] Connecting to the databaseMovieDB
+2023-01-09 10:10:49,373 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] MovieDBconnected
+2023-01-09 10:10:49,373 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] executing query
+2023-01-09 10:10:49,374 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-4] storing the resultset in a list
+2023-01-09 10:11:21,608 INFO com.movie.controllers.MovieController [http-nio-8082-exec-5] In Controller, Retrieving
+2023-01-09 10:11:21,608 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] Connecting to the databaseMovieDB
+2023-01-09 10:11:21,614 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] MovieDBconnected
+2023-01-09 10:11:21,615 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] executing query
+2023-01-09 10:11:21,619 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-5] storing the resultset in a list
+2023-01-09 10:11:28,158 INFO com.movie.controllers.MovieController [http-nio-8082-exec-6] In Controller, Get by ID
+2023-01-09 10:11:28,159 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] getting movie by id
+2023-01-09 10:11:28,159 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] Connecting to the databaseMovieDB
+2023-01-09 10:11:28,162 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] MovieDBconnected
+2023-01-09 10:11:28,162 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] executing query
+2023-01-09 10:11:28,164 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-6] storing the resultset in a list
+2023-01-09 10:12:00,748 INFO com.movie.controllers.MovieController [http-nio-8082-exec-7] In Controller, Get by ID
+2023-01-09 10:12:00,749 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] getting movie by id
+2023-01-09 10:12:00,749 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] Connecting to the databaseMovieDB
+2023-01-09 10:12:00,757 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] MovieDBconnected
+2023-01-09 10:12:00,757 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] executing query
+2023-01-09 10:12:00,761 INFO com.movie.service.MovieServiceImpl [http-nio-8082-exec-7] storing the resultset in a list
+2023-01-09 10:15:39,154 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 10:20:39,162 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 10:25:39,175 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 10:30:39,179 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 10:35:39,189 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 10:40:39,191 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 10:45:39,202 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 10:50:39,216 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 10:55:39,224 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 11:00:39,232 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 11:05:39,249 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 11:10:36,740 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(91)-127.0.0.1] Application shutdown requested.
+2023-01-09 11:10:36,751 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(91)-127.0.0.1] Unregistering application MOVIE-RETRIEVE with eureka with status DOWN
+2023-01-09 11:10:36,752 INFO com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(91)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1673242836752, current=DOWN, previous=UP]
+2023-01-09 11:10:36,753 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082: registering service...
+2023-01-09 11:10:36,776 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [DiscoveryClient-InstanceInfoReplicator-0] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on POST request for "http://localhost:8761/eureka/apps/MOVIE-RETRIEVE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/MOVIE-RETRIEVE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:791)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:717)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:608)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:782)
+	... 21 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 34 more
+
+2023-01-09 11:10:36,776 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [DiscoveryClient-InstanceInfoReplicator-0] Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/MOVIE-RETRIEVE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-01-09 11:10:36,786 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(91)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8082"]
+2023-01-09 11:10:36,786 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(91)-127.0.0.1] Stopping service [Tomcat]
+2023-01-09 11:10:36,787 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [DiscoveryClient-InstanceInfoReplicator-0] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/MOVIE-RETRIEVE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/MOVIE-RETRIEVE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:791)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:717)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:608)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:782)
+	... 22 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 35 more
+
+2023-01-09 11:10:36,787 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [DiscoveryClient-InstanceInfoReplicator-0] Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/MOVIE-RETRIEVE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-01-09 11:10:36,790 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(91)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-09 11:10:36,792 WARN com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-01-09 11:10:36,792 WARN com.netflix.discovery.InstanceInfoReplicator [DiscoveryClient-InstanceInfoReplicator-0] There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-01-09 11:10:36,811 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(91)-127.0.0.1] The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+ java.base@17.0.4.1/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+ app//com.orientechnologies.orient.client.remote.OStorageRemotePushThread.subscribe(OStorageRemotePushThread.java:124)
+ app//com.orientechnologies.orient.client.remote.OStorageRemote.subscribeDistributedConfiguration(OStorageRemote.java:1835)
+ app//com.orientechnologies.orient.client.remote.OStorageRemote.onPushReconnect(OStorageRemote.java:2328)
+ app//com.orientechnologies.orient.client.remote.OStorageRemotePushThread.run(OStorageRemotePushThread.java:99)
+2023-01-09 11:10:36,814 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(91)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8082"]
+2023-01-09 11:10:36,823 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(91)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8082"]
+2023-01-09 11:10:36,915 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(91)-127.0.0.1] Shutting down DiscoveryClient ...
+2023-01-09 11:10:39,258 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 11:10:39,922 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(91)-127.0.0.1] Unregistering ...
+2023-01-09 11:10:39,931 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [RMI TCP Connection(91)-127.0.0.1] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:791)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:717)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:608)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:782)
+	... 75 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 88 more
+
+2023-01-09 11:10:39,931 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [RMI TCP Connection(91)-127.0.0.1] Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-01-09 11:10:39,931 ERROR com.netflix.discovery.DiscoveryClient [RMI TCP Connection(91)-127.0.0.1] DiscoveryClient_MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-01-09 11:10:39,936 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(91)-127.0.0.1] Completed shut down of DiscoveryClient
+2023-01-09 15:54:51,415 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieRetrieveApiApplication using Java 17.0.4.1 on Hariharan with PID 22728 (C:\Users\HariharanB\FullstackFinal\movie-retrieve-api\target\classes started by HariharanB in C:\Users\HariharanB\FullstackFinal\movie-retrieve-api)
+2023-01-09 15:54:51,420 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2023-01-09 15:54:51,422 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-09 15:54:51,495 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2023-01-09 15:54:51,495 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=MOVIE-RETRIEVE, profiles=[default], label=null, version=859c16c98cdc5dea4ed03fb37a9541c751f918d5, state=null
+2023-01-09 15:54:52,430 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=4eabe816-0731-35ba-bfe2-815b53c2b351
+2023-01-09 15:54:52,871 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-01-09 15:54:52,883 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-01-09 15:54:52,884 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-01-09 15:54:52,884 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-09 15:54:53,100 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-01-09 15:54:53,100 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1602 ms
+2023-01-09 15:54:53,290 INFO com.orientechnologies.common.log.OLogManager [main] Windows OS is detected, 262144 limit of open files will be set for the disk cache.
+2023-01-09 15:54:53,797 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@23f5008a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44abdb1f, org.springframework.security.web.context.SecurityContextPersistenceFilter@49e7e8f1, org.springframework.security.web.header.HeaderWriterFilter@510da778, org.springframework.web.filter.CorsFilter@62108cd3, org.springframework.security.web.csrf.CsrfFilter@568f4faa, org.springframework.security.web.authentication.logout.LogoutFilter@36dafa24, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@4e4d0a0b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1247c72e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6fef75c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7cd1ec54, org.springframework.security.web.session.SessionManagementFilter@7bc2ae16, org.springframework.security.web.access.ExceptionTranslationFilter@12fccff0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b98225c]
+2023-01-09 15:54:54,702 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-01-09 15:54:55,174 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-09 15:54:55,254 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-01-09 15:54:55,316 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-01-09 15:54:55,325 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2023-01-09 15:54:55,362 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2023-01-09 15:54:55,363 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2023-01-09 15:54:55,363 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2023-01-09 15:54:55,363 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2023-01-09 15:54:55,363 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2023-01-09 15:54:55,364 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2023-01-09 15:54:55,364 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2023-01-09 15:54:55,695 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2023-01-09 15:54:55,698 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2023-01-09 15:54:55,701 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-01-09 15:54:55,707 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1673259895706 with initial instances count: 1
+2023-01-09 15:54:55,711 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MOVIE-RETRIEVE with eureka with status UP
+2023-01-09 15:54:55,714 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1673259895714, current=UP, previous=STARTING]
+2023-01-09 15:54:55,716 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082: registering service...
+2023-01-09 15:54:55,717 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-01-09 15:54:55,748 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-01-09 15:54:55,749 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8082
+2023-01-09 15:54:55,765 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082 - registration status: 204
+2023-01-09 15:54:56,101 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieRetrieveApiApplication in 7.716 seconds (JVM running for 8.85)
+2023-01-09 15:58:49,579 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(12)-127.0.0.1] Application shutdown requested.
+2023-01-09 15:58:49,580 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(12)-127.0.0.1] Unregistering application MOVIE-RETRIEVE with eureka with status DOWN
+2023-01-09 15:58:49,580 INFO com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(12)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1673260129580, current=DOWN, previous=UP]
+2023-01-09 15:58:49,581 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082: registering service...
+2023-01-09 15:58:49,590 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082 - registration status: 204
+2023-01-09 15:58:49,620 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(12)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8082"]
+2023-01-09 15:58:49,621 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(12)-127.0.0.1] Stopping service [Tomcat]
+2023-01-09 15:58:49,631 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(12)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8082"]
+2023-01-09 15:58:49,634 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(12)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8082"]
+2023-01-09 15:58:49,702 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(12)-127.0.0.1] Shutting down DiscoveryClient ...
+2023-01-09 23:20:35,996 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieRetrieveApiApplication using Java 17.0.4.1 on Hariharan with PID 16792 (C:\Users\HariharanB\FullstackFinal\movie-retrieve-api\target\classes started by HariharanB in C:\Users\HariharanB\FullstackFinal\movie-retrieve-api)
+2023-01-09 23:20:36,004 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2023-01-09 23:20:36,005 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-09 23:20:36,078 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2023-01-09 23:20:36,079 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=MOVIE-RETRIEVE, profiles=[default], label=null, version=859c16c98cdc5dea4ed03fb37a9541c751f918d5, state=null
+2023-01-09 23:20:37,344 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=4eabe816-0731-35ba-bfe2-815b53c2b351
+2023-01-09 23:20:37,791 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-01-09 23:20:37,803 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-01-09 23:20:37,804 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-01-09 23:20:37,805 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-09 23:20:38,067 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-01-09 23:20:38,069 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1987 ms
+2023-01-09 23:20:38,417 INFO com.orientechnologies.common.log.OLogManager [main] Windows OS is detected, 262144 limit of open files will be set for the disk cache.
+2023-01-09 23:20:39,075 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@23f5008a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44abdb1f, org.springframework.security.web.context.SecurityContextPersistenceFilter@b428830, org.springframework.security.web.header.HeaderWriterFilter@25de8898, org.springframework.web.filter.CorsFilter@62108cd3, org.springframework.security.web.csrf.CsrfFilter@4baf997, org.springframework.security.web.authentication.logout.LogoutFilter@30ec211a, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@4e4d0a0b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ef8e623, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d8d970e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7cd1ec54, org.springframework.security.web.session.SessionManagementFilter@5f61e002, org.springframework.security.web.access.ExceptionTranslationFilter@7103745, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b98225c]
+2023-01-09 23:20:40,041 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-01-09 23:20:40,557 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-09 23:20:40,649 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-01-09 23:20:40,707 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-01-09 23:20:40,716 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2023-01-09 23:20:40,751 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2023-01-09 23:20:40,752 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2023-01-09 23:20:40,752 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2023-01-09 23:20:40,752 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2023-01-09 23:20:40,753 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2023-01-09 23:20:40,753 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2023-01-09 23:20:40,753 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2023-01-09 23:20:41,206 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2023-01-09 23:20:41,210 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2023-01-09 23:20:41,216 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-01-09 23:20:41,225 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1673286641223 with initial instances count: 1
+2023-01-09 23:20:41,230 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application MOVIE-RETRIEVE with eureka with status UP
+2023-01-09 23:20:41,231 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1673286641231, current=UP, previous=STARTING]
+2023-01-09 23:20:41,237 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082: registering service...
+2023-01-09 23:20:41,238 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-01-09 23:20:41,297 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-01-09 23:20:41,298 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8082
+2023-01-09 23:20:41,333 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082 - registration status: 204
+2023-01-09 23:20:41,731 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieRetrieveApiApplication in 13.352 seconds (JVM running for 15.124)
+2023-01-09 23:25:40,767 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-09 23:25:48,076 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(12)-127.0.0.1] Application shutdown requested.
+2023-01-09 23:25:48,078 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(12)-127.0.0.1] Unregistering application MOVIE-RETRIEVE with eureka with status DOWN
+2023-01-09 23:25:48,078 INFO com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(12)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1673286948078, current=DOWN, previous=UP]
+2023-01-09 23:25:48,078 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082: registering service...
+2023-01-09 23:25:48,085 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-RETRIEVE/host.docker.internal:MOVIE-RETRIEVE:8082 - registration status: 204
+2023-01-09 23:25:48,099 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(12)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8082"]
+2023-01-09 23:25:48,100 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(12)-127.0.0.1] Stopping service [Tomcat]
+2023-01-09 23:25:48,109 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(12)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8082"]
+2023-01-09 23:25:48,111 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(12)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8082"]
+2023-01-09 23:25:48,180 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(12)-127.0.0.1] Shutting down DiscoveryClient ...

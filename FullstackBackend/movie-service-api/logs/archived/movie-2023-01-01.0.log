@@ -1,0 +1,50 @@
+2023-01-01 12:44:53,425 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 12:49:53,445 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 12:54:53,452 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 12:59:53,455 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 13:04:53,473 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 13:09:53,488 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 13:14:53,502 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 13:19:53,505 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 13:24:53,509 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 13:29:53,522 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 13:34:53,524 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 13:39:53,535 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 13:44:53,548 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 13:49:53,564 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 20:15:41,651 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 20:20:41,667 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 20:25:41,676 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 20:30:41,684 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 20:35:41,691 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 20:40:41,699 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 20:45:41,711 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 20:50:41,720 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 20:55:41,727 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 21:00:41,741 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 21:05:41,746 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 21:10:41,756 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 21:15:41,771 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-01-01 21:19:06,730 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(304)-127.0.0.1] Application shutdown requested.
+2023-01-01 21:19:06,751 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(304)-127.0.0.1] Unregistering application MOVIE-SERVICE with eureka with status DOWN
+2023-01-01 21:19:06,752 INFO com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(304)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1672588146752, current=DOWN, previous=UP]
+2023-01-01 21:19:06,753 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082: registering service...
+2023-01-01 21:19:06,806 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082 - registration status: 204
+2023-01-01 21:19:06,824 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(304)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8082"]
+2023-01-01 21:19:06,825 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(304)-127.0.0.1] Stopping service [Tomcat]
+2023-01-01 21:19:06,832 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(304)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-01 21:19:06,871 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(304)-127.0.0.1] The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.SynchronousQueue$TransferStack$SNode.block(SynchronousQueue.java:288)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:397)
+ java.base@17.0.4.1/java.util.concurrent.SynchronousQueue.put(SynchronousQueue.java:839)
+ app//com.orientechnologies.orient.client.remote.OStorageRemotePushThread.run(OStorageRemotePushThread.java:60)
+2023-01-01 21:19:06,877 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(304)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8082"]
+2023-01-01 21:19:06,881 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(304)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8082"]
+2023-01-01 21:19:07,005 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(304)-127.0.0.1] Shutting down DiscoveryClient ...
+2023-01-01 21:19:10,015 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(304)-127.0.0.1] Unregistering ...
+2023-01-01 21:19:10,030 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(304)-127.0.0.1] DiscoveryClient_MOVIE-SERVICE/host.docker.internal:MOVIE-SERVICE:8082 - deregister  status: 200
+2023-01-01 21:19:10,041 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(304)-127.0.0.1] Completed shut down of DiscoveryClient

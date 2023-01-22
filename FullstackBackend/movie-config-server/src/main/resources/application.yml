@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+      default-zone: http://EUREKA-REGISTRY
+  
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/HariharanBaskarraj/FullstackBackendConfig.git
+           
+  application:
+    name: MOVIE-CONFIG-SERVER

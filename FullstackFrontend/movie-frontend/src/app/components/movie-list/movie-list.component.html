@@ -1,0 +1,157 @@
+<div>
+    <mat-form-field [ngClass]="'choose'" appearance="outline">
+        <mat-select multiple (selectionChange)="onSelect($event)">
+            <mat-option [value]="column" *ngFor="let column of columns">{{column}}</mat-option>
+        </mat-select>
+        <mat-label>Choose columns to display</mat-label>
+    </mat-form-field>
+</div>
+
+<div>
+    <table *ngIf="movies" mat-table [dataSource]="movies">
+        <ng-container matColumnDef="movieId" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button (click)="sortMovie('movie_id')"> Movie Id
+                    <mat-icon>{{arrow}}</mat-icon></button> </th>
+            <td mat-cell *matCellDef="let movie" (click)="route(movie)" matTooltip="{{movie.movieId}}">
+                {{movie.movieId}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="movieName" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button (click)="sortMovie('movie_name')"> Movie name
+                    <mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.movieName}}"> {{movie.movieName}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="synopsis" *ngIf="'matColumnDef'">
+            <th [ngStyle]="{'width':'9%'}" mat-header-cell *matHeaderCellDef><button mat-button
+                    (click)="sortMovie('synopsis')">Synopsis<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.synopsis}}">{{ movie.synopsis|slice: 0:35 }}...
+            </td>
+        </ng-container>
+
+        <ng-container matColumnDef="releaseDate" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button (click)="sortMovie('release_date')">Release
+                    Date<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.releaseDate|date:'mediumDate'}}">{{
+                movie.releaseDate|date:'mediumDate' }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="runtime" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button
+                    (click)="sortMovie('runtime')">Runtime<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.runtime}}">{{ movie.runtime }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="genre" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button
+                    (click)="sortMovie('genre')">Genre<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.genre}}">{{ movie.genre }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="leadActor" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button (click)="sortMovie('lead_actor')">Lead
+                    Actor<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.leadActor}}">{{ movie.leadActor }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="leadActress" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button (click)="sortMovie('lead_actress')">Lead
+                    Actress<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.leadActress}}">{{ movie.leadActress}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="director" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button
+                    (click)="sortMovie('director')">Director<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.director}}">{{ movie.director }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="writer" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button
+                    (click)="sortMovie('writer')">Writer<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.writer}}">{{ movie.writer }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="productionHouse" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button (click)="sortMovie('production_house')">Production
+                    House<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.productionHouse}}">
+                {{ movie.productionHouse }}
+            </td>
+        </ng-container>
+
+        <ng-container matColumnDef="composer" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button
+                    (click)="sortMovie('composer')">Composer<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.composer}}">
+                {{ movie.composer }}
+            </td>
+        </ng-container>
+
+        <ng-container matColumnDef="distributor" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button
+                    (click)="sortMovie('distributor')">Distributor<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.distributor}}">{{ movie.distributor }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="editor" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button
+                    (click)="sortMovie('editor')">Editor<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.editor}}">{{ movie.editor }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="budget" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button (click)="sortMovie('budget')">Budget (in
+                    crores)<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.budget}}">{{ movie.budget }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="collection" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button (click)="sortMovie('collection')">Collection (in
+                    crores)<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.collection}}">
+                {{ movie.collection }}
+            </td>
+        </ng-container>
+
+        <ng-container matColumnDef="criticRatings" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button (click)="sortMovie('critic_ratings')">Critic
+                    Ratings<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.criticRatings}}">{{ movie.criticRatings }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="cbfcCertificate" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button (click)="sortMovie('cbfc_certificate')">CBFC
+                    Certificate<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.cbfcCertificate}}">{{ movie.cbfcCertificate }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="awardCount" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button (click)="sortMovie('award_count')">Award
+                    Count<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.awardCount}}">{{ movie.awardCount }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="basis" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button
+                    (click)="sortMovie('basis')">Basis<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.basis}}">{{ movie.basis }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="audienceRatings" *ngIf="'matColumnDef'">
+            <th mat-header-cell *matHeaderCellDef><button mat-button (click)="sortMovie('audience_ratings')" >Audience
+                    Ratings<mat-icon>{{arrow}}</mat-icon></button></th>
+            <td mat-cell *matCellDef="let movie" matTooltip="{{movie.audienceRatings}}">{{ movie.audienceRatings }}</td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr (click)="route(movie.movieId)" mat-row *matRowDef="let row; columns: displayedColumns;let movie"></tr>
+    </table>
+</div>
+<div>
+    <mat-paginator [length]="count()" [pageSize]="10" [pageSizeOptions]="[1, 5, 10, 25]" aria-label="Select page"
+        (page)="pagination($event)">
+    </mat-paginator>
+</div>
+
+
